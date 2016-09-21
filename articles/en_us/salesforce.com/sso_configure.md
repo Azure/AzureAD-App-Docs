@@ -46,7 +46,6 @@
 
 	- For **Service Provider Initiated Request Binding**, select **HTTP Redirect**.
 
-
 	- Finally, click **Save** to apply your SAML single sign-on settings.
 
 7. On the left navigation pane in Salesforce, click **Domain Management** to expand the related section, and then click **My Domain**.
