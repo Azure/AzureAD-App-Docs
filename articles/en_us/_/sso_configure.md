@@ -1,3 +1,9 @@
+##Prerequisites
+
+1. You must have a valid tenant or subscription with %metadata:DisplayName%
+
+2. Your tenant or subscription must provide the ability to configure a third-party SAML identity provider. To determine this, view your application’s documentation or contact the application provider.
+
 ##Configure %metadata:DisplayName% for single sign on
 
 For users to be able to sign in using their organization account, %metadata:DisplayName% must be manually configured to use your Azure Active Directory as a SAML identity provider. %metadata:DisplayName% cannot prompt or otherwise allow users to sign in using Azure Active Directory if it has not been configured to do so.
@@ -10,7 +16,7 @@ To configure %metadata:DisplayName% for single sign-on:
 
 3. During this process, you will be prompted to provide files and URLs that correspond to Azure Active Directory. When prompted, use the files and URLs shown below:
 
-    - **SignInUrlExample: ** %metadata:SignInUrlExample%
+    - **SignInUrlExample:** %metadata:SignInUrlExample%
 
     - **singleSignOnServiceUrl:** %metadata:singleSignOnServiceUrl%
 
@@ -27,10 +33,4 @@ To configure %metadata:DisplayName% for single sign-on:
     - [metadataDownloadUrl](%metadata:metadataDownloadUrl%)
 
 4. Once this information has been provided and configured in %metadata:DisplayName%, %metadata:DisplayName% will begin to require or otherwise allow users to sign in using your instance of Azure Active Directory.
-
-##Prerequisites
-
-1. You must have a valid tenant or subscription with %metadata:DisplayName%
-
-2. Your tenant or subscription must provide the ability to configure a third-party SAML identity provider. To determine this, view your application’s documentation or contact the application provider.
 
