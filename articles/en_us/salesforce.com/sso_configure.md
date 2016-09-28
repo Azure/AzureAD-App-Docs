@@ -45,7 +45,7 @@ Before you can configure single sign-on, you must set up and deploy a custom dom
 
 	- Developer account: `https://<domain>-dev-ed.my.salesforce.com`
 
-	- Download the SAML certificate here: [Certificate download](%metadata:CertificateDownloadUrl%)
+	- Download the SAML certificate here: [Certificate download](%metadata:CertificateDownloadRawUrl%)
 
 	- Then click **Browse** or **Choose File** to open the **Choose File to Upload** dialog, select the SAML certificate, and then click **Open** to upload the certificate.
 
