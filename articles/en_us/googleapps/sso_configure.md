@@ -27,10 +27,15 @@ To manually configure Google Apps to use Azure Active Directory for single sign-
 ![Configure SSO][12] 
 
 - Select **Setup SSO with third party identity provider**. 
+
 - Enter the following value in the **Sign-in page URL** field in Google Apps: %metadata:SingleSignOnServiceUrl% 
+
 - Enter the following value in the **Sign-out page URL** field in Google Apps: %metadata:SingleSignOutServiceUrl% 
-- Enter the following value in the **Change password URL** field in Google Apps: %metadata:SingleSignOnServiceUrl% 
+
+- Enter the following value in the **Change password URL** field in Google Apps: https://account.activedirectory.windowsazure.com/changepassword.aspx
+
 - In Google Apps, for the **Verification certificate**, upload the certificate that you downloaded in the step above. 
+
 - Click **Save Changes**.
 
 [10]: media/gapps-security.png
