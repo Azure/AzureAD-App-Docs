@@ -10,7 +10,7 @@ To manually configure Google Apps to use Azure Active Directory for single sign-
 
 2.  Second, ensure a valid **SAML signing certificate** has been created in the Azure management portal.
 
-3.  To begin configuring your Google Apps tenant to use Azure Active Directory as an identity provider, start by downloading the following certificate file , and saving it locally on your computer: [Download certificate](%metadata:certificateDownloadBase64Url%))
+3.  To begin configuring your Google Apps tenant to use Azure Active Directory as an identity provider, start by downloading the following certificate file , and saving it locally on your computer: [Download certificate](%metadata:CertificateDownloadUrl%))
 
 4. Open a new tab in your browser, and sign into the [Google Apps Admin Console](http://admin.google.com/) using your administrator account.
 
