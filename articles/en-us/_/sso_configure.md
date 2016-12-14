@@ -16,21 +16,17 @@ To configure %metadata:DisplayName% for single sign-on:
 
 3. During this process, you will be prompted to provide files and URLs that correspond to Azure Active Directory. When prompted, use the files and URLs shown below:
 
-    - **SignInUrlExample:** %metadata:SignInUrlExample%
+    - **SAML Single Sign-On Service URL:** %metadata:singleSignOnServiceUrl%
+    
+    - **SAML Entity ID:** %metadata:IssuerUri%
 
-    - **singleSignOnServiceUrl:** %metadata:singleSignOnServiceUrl%
+    - **Sign-Out URL:** %metadata:singleSignOutServiceUrl%
 
-    - **singleSignOutServiceUrl:** %metadata:singleSignOutServiceUrl%
+    - [SAML Signing Certificate - Base64 encoded](%metadata:certificateDownloadBase64Url%)
 
-    - **IssuerUri:** %metadata:IssuerUri%
+    - [SAML Signing Certificate - Raw](%metadata:CertificateDownloadRawUrl%)
 
-    - **Key:** %metadata:Key%
-
-    - [certificateDownloadBase64Url](%metadata:certificateDownloadBase64Url%)
-
-    - [CertificateDownloadRawUrl](%metadata:CertificateDownloadRawUrl%)
-
-    - [metadataDownloadUrl](%metadata:metadataDownloadUrl%)
+    - [SAML XML Metadata](%metadata:metadataDownloadUrl%)
 
 4. Once this information has been provided and configured in %metadata:DisplayName%, %metadata:DisplayName% will begin to require or otherwise allow users to sign in using your instance of Azure Active Directory.
 
