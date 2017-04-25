@@ -10,8 +10,8 @@ To configure Azure AD integration with Scalex Enterprise, you need the following
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- Do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Scalex Enterprise for single sign-on
 
@@ -19,15 +19,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. Click the menu in the upper right and select **Azure AD Gallery Test Administration**.
 
-	![Configure Single Sign-On](./media/active-directory-saas-scalexenterprise-tutorial/test_admin.png) 
+	![Configure Single Sign-On](./media/test_admin.png) 
 
 3. Select **Integrations** from the top menu and select **Single Sign-On**.
 
-	![Configure Single Sign-On](./media/active-directory-saas-scalexenterprise-tutorial/admin_sso.png) 
+	![Configure Single Sign-On](./media/admin_sso.png) 
 
 4. Complete the form as follows:
 
-	![Configure Single Sign-On](./media/active-directory-saas-scalexenterprise-tutorial/scalex_admin_save.png) 
+	![Configure Single Sign-On](./media/scalex_admin_save.png) 
 	
 	a. Select **“Create any user who can authenticate with SSO.”**
 
@@ -35,7 +35,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	c. **Name of Identity Provider email field in ACS response**: Paste the value ***http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress***
 
-	d. **Identity Provider EntityDescriptor Entity ID:** enter **Azure AD SAML Entity ID** : %metadata:IssuerUri% .
+	d. **Identity Provider EntityDescriptor Entity ID:** enter **Azure AD SAML Entity ID** : %metadata:IssuerUri%.
 
 	e. **Identity Provider SingleSignOnService URL:** enter **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%.
 
@@ -43,11 +43,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 	
 	g. Check the following checkboxes: **Enabled, Encrypt NameID and Sign AuthnRequests.**
 
-	h. Click **Update SSO Settings** to save the settings.
-
-
-
-
+	h. To save the settings Click **Update SSO Settings**.
 
 ## Quick Reference
 
@@ -55,11 +51,10 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
-* **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
-
+* **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 
 ## Additional Resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate Scalex Enterprise with Azure Active Directory](active-directory-saas-scalexenterprise-tutorial.md)
+

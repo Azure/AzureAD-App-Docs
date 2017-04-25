@@ -1,11 +1,3 @@
-
-## Overview
-
-To enable single sign-on with Amazon Web Services (AWS), it must be configured to use Azure Active Directory as an identity provider. This guide provides information and tips on how to perform this configuration in Amazon Web Services (AWS).
-
->[!Note]: 
->This embedded guide is brand new in the new Azure portal, and we'd love to hear your thoughts. Use the Feedback ? button at the top of the portal to provide feedback. The older guide for using the [Azure classic portal](https://manage.windowsazure.com) to configure this application can be found [here](https://github.com/Azure/AzureAD-App-Docs/blob/master/articles/en-us/_/sso_configure.md).
- 
 ## Prerequisites
 
 To configure Azure AD integration with Amazon Web Services (AWS), you need the following items:
@@ -13,7 +5,7 @@ To configure Azure AD integration with Amazon Web Services (AWS), you need the f
 - An Azure AD subscription
 - A Amazon Web Services (AWS) single-sign on enabled subscription
 
-> **Note:**
+> [!Note]:
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -45,7 +37,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
   	b. In the **Provider Name** textbox, type a provider name (e.g.: *WAAD*).
 
-  	c. To upload your downloaded metadata file, click **Choose File**.
+  	c. To upload your downloaded metadata file (**[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**), click **Choose File**.
 
   	d. Click **Next Step**.
 
@@ -98,35 +90,25 @@ To test the steps in this tutorial, you should follow these recommendations:
   	b. Copy the **Trusted Entities** ARN value.
  
   	c. Click **Create Role**.
-
-### Next steps
-
-To ensure users can sign-in to Amazon Web Services (AWS) after it has been configured to use Azure Active Directory, review the following tasks and topics:
-
-- User accounts must be pre-provisioned into Amazon Web Services (AWS) prior to sign-in. To set this up, see Provisioning.
  
-- Users must be assigned access to Amazon Web Services (AWS) in Azure AD to sign-in. To assign users, see Users.
- 
-- To configure access polices for Amazon Web Services (AWS) users, see Access Policies.
- 
-- For additional information on deploying single sign-on to users, see [this article](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-appssoaccess-whatis#deploying-azure-ad-integrated-applications-to-users).
 
 ## Quick Reference
 
-* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
+* **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
 
-* **[Download SAML Metdata file](%metadata:metadataDownloadUrl%)**
+## Additional Resources
 
+* [How to integrate Amazon Web Services (AWS) with Azure Active Directory](active-directory-saas-amazonwebservices(aws)-tutorial.md)
 
-[11]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795031.png
-[12]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795032.png
-[13]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795033.png
-[14]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795034.png
-[15]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795035.png
-[16]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795022.png
-[17]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795023.png
-[18]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795024.png
-[19]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic795025.png
-[32]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic7950251.png
-[33]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic7950252.png
-[34]: ./media/active-directory-saas-amazonwebservices(aws)-tutorial/ic7950253.png
+[11]: ./media/ic795031.png
+[12]: ./media/ic795032.png
+[13]: ./media/ic795033.png
+[14]: ./media/ic795034.png
+[15]: ./media/ic795035.png
+[16]: ./media/ic795022.png
+[17]: ./media/ic795023.png
+[18]: ./media/ic795024.png
+[19]: ./media/ic795025.png
+[32]: ./media/ic7950251.png
+[33]: ./media/ic7950252.png
+[34]: ./media/ic7950253.png

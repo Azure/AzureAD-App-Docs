@@ -10,19 +10,18 @@ To configure Azure AD integration with Zendesk, you need the following items:
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- Do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Zendesk for single sign-on
 
-
-1. In a different web browser window, log into your Zendesk company site as an administrator.
+1. In a different web browser window, log in to your Zendesk company site as an administrator.
 
 2. Click **Admin**.
 
 3. In the left navigation pane, click **Settings**, and then click **Security**.
    
-    ![Security](./media/active-directory-saas-zendesk-tutorial/IC773089.png "Security")
+    ![Security](./media/IC773089.png "Security")
 
 4. On the **Security** page, click the **Admin & Agents** tab.
 
@@ -32,12 +31,12 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 7. In the Azure AD portal, on the ****Configure sign-on**** window, copy the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value from **Quick Reference** section, and then paste it into the **Remote Logout URL** textbox.
     
-    ![Single sign-on](./media/active-directory-saas-zendesk-tutorial/IC773090.png "Single sign-on")
+    ![Single sign-on](./media/IC773090.png "Single sign-on")
 
-8. Copy the **Thumbprint** value from the exported certificate, and then paste it into the **Certificate Fingerprint** textbox.**[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)** from Quick Reference section.
+8. Copy the **Thumbprint** value from the exported certificate, and then paste it into the **Certificate Fingerprint** textbox.**[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)** from Quick Reference section.
     
     > [!TIP]
-    > For more details, see [How to retrieve a certificate's thumbprint value](http://youtu.be/YKQF266SAxI)
+    > For more information, see. How to retrieve a certificate's thumbprint value](http://youtu.be/YKQF266SAxI)
    
 9. Click **Save**.
 
@@ -47,7 +46,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
-* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
+* **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
 
 
 ## Additional Resources

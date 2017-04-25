@@ -1,11 +1,11 @@
 ## Prerequisites
 
-To configure Azure AD integration with Google Apps, you need the following items:
+To configure Azure AD integration with Dropbox for Business, you need the following items:
 
 - An Azure AD subscription
-- A Google Apps single-sign on enabled subscription
+- A Dropbox for Business single-sign on enabled subscription
 
-> **Note:**
+> [!Note]:
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -13,63 +13,27 @@ To test the steps in this tutorial, you should follow these recommendations:
 - Do not use your production environment, unless it is necessary.
 - If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
-## Video tutorial
-How to Enable Single Sign-On to Google Apps in 2 Minutes:
+### Configuring Dropbox for Business for single sign-on
 
-> [!VIDEO https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Enable-single-sign-on-to-Google-Apps-in-2-minutes-with-Azure-AD/player]
-> 
-> 
+1. To configure single sign-on on **Dropbox for Business** side, Go on your Dropbox for Business tenant, in the **Single sign-on** section of the **Authentication** page, perform the following steps: 
+   
+    ![Configure single sign-on](./media/ic769516.png "Configure single sign-on")
+   
+    a. Click **Required**.
+   
+    b. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl% value, and then paste it into the **Sign-in URL** textbox.
 
-## Frequently Asked Questions
-1. **Q: Are Chromebooks and other Chrome devices compatible with Azure AD single sign-on?**
-   
-    A: Yes, users are able to sign into their Chromebook devices using their Azure AD credentials. See this [Google Apps support article](https://support.google.com/chrome/a/answer/6060880) for information on why users may get prompted for credentials twice.
-2. **Q: If I enable single sign-on, are users be able to use their Azure AD credentials to sign into any Google product, such as Google Classroom, GMail, Google Drive, YouTube, etch?**
-   
-    A: Yes, depending on [which Google apps](https://support.google.com/a/answer/182442?hl=en&ref_topic=1227583) you choose to enable or disable for your organization.
-3. **Q: Can I enable single sign-on for only a subset of my Google Apps users?**
-   
-    A: No, turning on single sign-on immediately requires all your Google Apps users to authenticate with their Azure AD credentials. Because Google Apps doesn't support having multiple identity providers, the identity provider for your Google Apps environment can either be Azure AD or Google -- but not both at the same time.
-4. **Q: If a user is signed in through Windows, are they automatically authenticate to Google Apps without getting prompted for a password?**
-   
-    A: There are two options for enabling this scenario. First, users could sign into Windows 10 devices via [Azure Active Directory Join](active-directory-azureadjoin-overview.md). Alternatively, users could sign into Windows devices that are domain-joined to an on-premises Active Directory that has been enabled for single sign-on to Azure AD via an [Active Directory Federation Services (AD FS)](active-directory-aadconnect-user-signin.md) deployment. Both options require that you follow the tutorial below to enable single sign-on between Azure AD and Google Apps.
+    c. Click **Choose certificate**, and then browse to your **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**.
 
-
-### Configuring Google Apps for single sign-on
-7. Open a new tab in your browser, and sign into the [Google Apps Admin Console](http://admin.google.com/) using your administrator account.
-
-8. Click **Security**. If you don't see the link, it may be hidden under the **More Controls** menu at the bottom of the screen.
-   
-    ![Click Security.][10]
-
-9. On the **Security** page, click **Set up single sign-on (SSO).**
-   
-    ![Click SSO.][11]
-
-10. Perform the following configuration changes:
-   
-    ![Configure SSO][12]
-   
-   * Select **Setup SSO with third party identity provider**.
-   * In Azure AD, copy the **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl%, and paste it into the **Sign-in page URL** field in Google Apps.
-   * In Azure AD, copy the **Azure AD Sign Out URL**: %metadata:singleSignOutServiceUrl%, and paste it into the **Sign-out page URL** field in Google Apps.
-   * In Azure AD, copy the **Change password URL**, and paste it into the **Change password URL** field in Google Apps.
-   * In Google Apps, for the **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**, upload the certificate that you already downloaded.
-   * Click **Save Changes**.
+    d. Click **Save changes** to complete the configuration on your DropBox for Business tenant.
 
 ## Quick Reference
 
 * **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL**: %metadata:singleSignOutServiceUrl%
-
-* **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
-
-[10]: ./media/gapps-security.png
-[11]: ./media/security-gapps.png
-[12]: ./media/gapps-sso-config.png
+* **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 ## Additional Resources
 
-* [How to integrate Google Apps with Azure Active Directory](active-directory-saas-googleapps-tutorial.md)
-* [How to configure user provisioning with Google Apps](active-directory-saas-googleapps-user-provisioning-tutorial.md)
+* [How to integrate Dropbox for Business with Azure Active Directory](active-directory-saas-dropboxforbusiness-tutorial.md)
+* [How to configure user provisioning with Dropbox for Business](active-directory-saas-dropboxforbusiness-user-provisioning-tutorial.md)

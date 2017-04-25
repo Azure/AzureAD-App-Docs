@@ -10,24 +10,20 @@ To configure Azure AD integration with Nexonia, you need the following items:
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Nexonia for single sign-on
 
-1. To get SSO configured for your application, contact [Nexonia support team](http://www.nexonia.com/contact-us/) and provide them with the following:
+1. To get SSO configured for your application, contact [Nexonia support team](http://www.nexonia.com/contact-us/) and provide them with the following details:
 
-	• The downloaded **[Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
+	• The downloaded **[Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
-	• The **Azure AD SAML Entity ID** : %metadata:IssuerUri%
+	• The **Azure AD SAML Entity ID**: %metadata:IssuerUri%
 
 	• The **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
 	• The **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
-
-
-
-
 
 ## Quick Reference
 
@@ -37,11 +33,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
-* **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
-
-
+* **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 ## Additional Resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate Nexonia with Azure Active Directory](active-directory-saas-nexonia-tutorial.md)

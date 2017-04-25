@@ -10,8 +10,8 @@ To configure Azure AD integration with Tableau Server, you need the following it
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- Do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Tableau Server for single sign-on
 
@@ -19,15 +19,15 @@ To test the steps in this tutorial, you should follow these recommendations:
    
    a. In the Tableau Server configuration, click the **SAML** tab.
   
-   ![Configure Single Sign-On](./media/active-directory-saas-tableauserver-tutorial/tutorial_tableauserver_001.png)
+   ![Configure Single Sign-On](./media/tutorial_tableauserver_001.png)
   
    b. Select the checkbox of **Use SAML for single sign-on**.
   
-   c. Locate your Federation Metadata file downloaded **[SAML Metdata file](%metadata:metadataDownloadUrl%)** from Azure portal, and then upload it in the **SAML Idp metadata file**.
+   c. Locate your Federation Metadata file downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)** from Azure portal, and then upload it in the **SAML Idp metadata file**.
    
-   d. Tableau Server return URL—The URL that Tableau Server users will be accessing, such as http://tableau_server. Using http://localhost is not recommended. Using a URL with a trailing slash (for example, http://tableau_server/) is not supported. Copy **Tableau Server return URL** and paste it to Azure AD **Sign On URL** textbox as shown in the step 3.
+   d. Tableau Server return URL—The URL that Tableau Server users access, such as http://tableau_server. Using http://localhost is not recommended. Using a URL with a trailing slash (for example, http://tableau_server/) is not supported. Copy **Tableau Server return URL** and paste it to Azure AD **Sign On URL** textbox as shown in the step 3.
    
-   e. SAML entity ID—The entity ID uniquely identifies your Tableau Server installation to the IdP. You can enter your Tableau Server URL again here, if you like, but it does not have to be your Tableau Server URL. Copy **SAML entity ID** and paste it to Azure AD **Identifier** textbox as shown in the step 3.
+   e. SAML entity ID—The entity ID uniquely identifies your Tableau Server installation to the IdP. if you like. You can enter your Tableau Server URL again here, but it does not have to be your Tableau Server URL. Copy **SAML entity ID** and paste it to Azure AD **Identifier** textbox as shown in the step 3.
    
    f. Click the **Export Metadata File** and open it in the text editor application. Locate Assertion Consumer Service URL with Http Post and Index 0 and copy the URL. Now paste it to Azure AD **Reply URL** textbox as shown in step 3. 
    
@@ -36,18 +36,12 @@ To test the steps in this tutorial, you should follow these recommendations:
     >[!NOTE] 
 	>Customer have to upload any certificate in the Tableau Server SAML SSO configuration and it will get ignored in the SSO flow.
 	>If you need help configuring SAML on Tableau Server then please refer to this article [Configure SAML](http://onlinehelp.tableau.com/current/server/en-us/config_saml.htm).
-    >
-
-
-
+  
 ## Quick Reference
 
-
-* **[Download SAML Metdata file](%metadata:metadataDownloadUrl%)**
-
-
+* **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
 
 ## Additional Resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate Tableau Server with Azure Active Directory](active-directory-saas-tableauserver-tutorial.md)
+

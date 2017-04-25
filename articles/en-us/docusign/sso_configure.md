@@ -10,8 +10,8 @@ To configure Azure AD integration with Docusign, you need the following items:
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- Do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Docusign for single sign-on
 
@@ -57,9 +57,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 	> 
    
 	![Configuring single sign-on][57]
-9. In the **Identity Provider Certificate** section, click **Add Certificate**, and then upload the certificate. **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** file which you can download from Quick Reference section.
+
+9. In the **Identity Provider Certificate** section, click **Add Certificate**, and then upload the **[Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** file.
    
 	![Configuring single sign-on][58]
+
 10. Click **Save**.
 11. In the **Identity Providers** section, click **Actions**, and then click **Endpoints**.   
    
@@ -69,11 +71,11 @@ To test the steps in this tutorial, you should follow these recommendations:
    
 	![Configuring single sign-on][60]
    
-	a. Copy the **Service Provider Issuer URL**, and then paste it into the **Identifier** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://contoso.docusign.com/*'.
+	a. Copy the **Service Provider Issuer URL**, and then paste it into the **Identifier** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://<subdomain>.docusign.com/*'.
    
-	b. Copy the **Service Provider Login URL**, and then paste into the **Sign On URL** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://contoso.docusign.com/*'.
+	b. Copy the **Service Provider Login URL**, and then paste into the **Sign On URL** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://<subdomain>.docusign.com/*'.
 
-	![Configure Single Sign-On](./media/active-directory-saas-docusign-tutorial/tutorial_docusign_url.png)
+	![Configure Single Sign-On](./media/tutorial_docusign_url.png)
 	  
 	c.  Click **Close**
     
@@ -83,34 +85,34 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
-* **Azure AD SMAL Entity ID** : %metadata:IssuerUri%
+* **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 
 <!--Image references-->
 
-[1]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_01.png
-[2]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_02.png
-[3]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_03.png
-[4]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_04.png
-[51]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_21.png
-[52]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_22.png
-[53]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_23.png
-[54]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_19.png
-[55]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_20.png
-[56]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_24.png
-[57]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_25.png
-[58]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_26.png
-[59]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_27.png
-[60]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_28.png
-[61]: ./media/active-directory-saas-docusign-tutorial/tutorial_docusign_29.png
-[100]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_100.png
+[1]: ./media/tutorial_general_01.png
+[2]: ./media/tutorial_general_02.png
+[3]: ./media/tutorial_general_03.png
+[4]: ./media/tutorial_general_04.png
+[51]: ./media/tutorial_docusign_21.png
+[52]: ./media/tutorial_docusign_22.png
+[53]: ./media/tutorial_docusign_23.png
+[54]: ./media/tutorial_docusign_19.png
+[55]: ./media/tutorial_docusign_20.png
+[56]: ./media/tutorial_docusign_24.png
+[57]: ./media/tutorial_docusign_25.png
+[58]: ./media/tutorial_docusign_26.png
+[59]: ./media/tutorial_docusign_27.png
+[60]: ./media/tutorial_docusign_28.png
+[61]: ./media/tutorial_docusign_29.png
+[100]: ./media/tutorial_general_100.png
 
-[200]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_200.png
-[201]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_201.png
-[202]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_202.png
-[203]: ./media/active-directory-saas-docusign-tutorial/tutorial_general_203.png
+[200]: ./media/tutorial_general_200.png
+[201]: ./media/tutorial_general_201.png
+[202]: ./media/tutorial_general_202.png
+[203]: ./media/tutorial_general_203.png
 
 ## Additional Resources
 

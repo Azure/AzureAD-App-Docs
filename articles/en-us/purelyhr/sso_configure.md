@@ -10,8 +10,8 @@ To configure Azure AD integration with PurelyHR, you need the following items:
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring PurelyHR for single sign-on
 
@@ -21,9 +21,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 3. Paste the values in the boxes as described below-
 
-	![Configure Single Sign-On](./media/active-directory-saas-purelyhr-tutorial/purelyhr-dashboard-sso-settings.png)	
+	![Configure Single Sign-On](./media/purelyhr-dashboard-sso-settings.png)	
 
-	a. Open the **Certificate(Bas64)**: (%metadata:certificateDownloadBase64Url%)** downloaded from the Azure portal in notepad and copy the certificate value. Paste the copied value into the **X.509 Certificate** box.
+	a. Open the **Certificate(Bas64)** : (%metadata:certificateDownloadBase64Url%)** downloaded from the Azure portal in notepad and copy the certificate value. Paste the copied value into the **X.509 Certificate** box.
 
 	b. In the **Idp Issuer URL** box, paste the **Azure AD SAML Entity ID** : %metadata:IssuerUri% copied from the Azure portal.
 
@@ -33,19 +33,14 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	e. Click **Save Changes** to save the settings.
 
-
-
 ## Quick Reference
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
-* **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
-
-
+* **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 ## Additional Resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate PurelyHR with Azure Active Directory](active-directory-saas-purelyhr-tutorial.md)

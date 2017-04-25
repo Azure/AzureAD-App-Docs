@@ -3,19 +3,19 @@
 To configure Azure AD integration with ASC Contracts, you need the following items:
 
 - An Azure AD subscription
-- A ASC Contracts single-sign on enabled subscription
+- An ASC Contracts single-sign on enabled subscription
 
-> [!Note]:
+> [!NOTE]:
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
-- If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- Do not use your production environment, unless it is necessary.
+- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring ASC Contracts for single sign-on
 
-6. To configure single sign-on on **ASC Contracts** side, contact ASC Contracts support at **613.599.6178** and provide them with the downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)**. They set this application up to have the SAML SSO connection set properly on both sides.
+ To configure single sign-on on **ASC Contracts** side, contact ASC Contracts support at **613.599.6178** and provide them with the downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)**. They set this application up to have the SAML SSO connection set properly on both sides.
 
 
 
@@ -29,5 +29,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate ASC Contracts with Azure Active Directory](active-directory-saas-asccontracts-tutorial.md)
+
