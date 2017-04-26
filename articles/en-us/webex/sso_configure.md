@@ -35,8 +35,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	b. Create a **Base-64 encoded** file from your downloaded certificate.
   
-    >[!TIP]
-    >For more information, see [how to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o)
+    > **TIP**
+    > For more information, see [how to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o)
     
 	c. Open your base-64 encoded certificate in notepad, and then copy the content of it.
 

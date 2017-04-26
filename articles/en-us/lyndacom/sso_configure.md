@@ -5,7 +5,7 @@ To configure Azure AD integration with Lynda.com, you need the following items:
 - An Azure AD subscription
 - A Lynda.com single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -18,8 +18,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 1. To configure single sign-on on **Lynda.com** side, you need to send the downloaded **Metadata XML** [Lynda.com support](https://www.linkedin.com/help/lynda/ask).
 
 ## Quick Reference
-
-* **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
 
 * **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
 

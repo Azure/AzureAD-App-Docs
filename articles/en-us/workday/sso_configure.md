@@ -5,7 +5,7 @@ To configure Azure AD integration with Workday, you need the following items:
 - An Azure AD subscription
 - A Workday single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -41,7 +41,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     d.  In **Environment** textbox, type the environment name.  
 
-    >[!NOTE]
+    >**Note:**
     > The value of the Environment attribute is tied to the value of the tenant URL:  
     >-If the domain name of the Workday tenant URL starts with impl (for example, *https://impl.workday.com/\<tenant\>/login-saml2.htmld*), the **Environment** attribute must be set to Implementation.  
     >-If the domain name starts with something else, you need to contact [Workday Client support team](https://www.workday.com/en-us/partners-services/services/support.html) to get the matching **Environment** value.
@@ -84,11 +84,9 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c.  In the **Valid To** textbox, type the valid to attribute value of your certificate.
    
-    > [!NOTE]
+    > **Note:**
     > You can get the valid from date and the valid to date from the downloaded certificate by double-clicking it.  The dates are listed under the **Details** tab.
-    > 
-    >
-   
+  
     d.  Open your base-64 encoded certificate in notepad, and then copy the content of it.
    
     e.  In the **Certificate** textbox, paste the content of your clipboard.

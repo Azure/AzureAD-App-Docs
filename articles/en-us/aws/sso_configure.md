@@ -5,7 +5,7 @@ To configure Azure AD integration with Amazon Web Services (AWS), you need the f
 - An Azure AD subscription
 - A Amazon Web Services (AWS) single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:

@@ -93,7 +93,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     b. In the **User Field** textbox, type **email** or **user_name**, depending on which field is used to uniquely identify users in your ServiceNow deployment. 
 
-    > [!NOTE] 
+    > **Note:** 
     > You can configure Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section in the Azure portal and map the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (for exmaple, user principal name) must match the value stored in ServiceNow for the entered field (for exmaple, user_name)
 
     c. In the Azure AD portal, copy the **Identity Provider ID** value, and then paste it into the **Identity Provider URL** textbox.
@@ -104,7 +104,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     f. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
 
-    > [!NOTE] 
+    > **Note:** 
     > The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (for exmaple,`https://fabrikam.service-now.com/navpage.do`).
 
     g. In the **Entity ID / Issuer** textbox, type the URL of your ServiceNow tenant.
@@ -160,11 +160,9 @@ To test the steps in this tutorial, you should follow these recommendations:
     
     e. Create a Base64 encoded file from your downloaded certificate.
     
-    > [!NOTE]
+    > **Note:**
     > For more information, see [how to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o).
-    > 
-    > 
-    
+   
     f. Open your Base64 encoded certificate in notepad, copy the content of it into your clipboard, and then paste it to the **PEM Certificate** textbox.
     
     g. Click **Update**.
@@ -172,7 +170,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 17. On the **Single Sign-On** dialog, click **Add New IdP**.
     
     ![Configure single sign-on](./media/ic7694976ex.png "Configure single sign-on")
-
 
 18. On the **Add New Identity Provider** dialog, under **Configure Identity Provider**, perform the following steps:
     
@@ -187,7 +184,6 @@ To test the steps in this tutorial, you should follow these recommendations:
     d. In the Azure AD portal, copy the **Single Sign-Out Service URL** value, and then paste it into the **Identity Provider's SingleLogoutRequest** textbox.
 
     e. As **Identity Provider Certificate**, select the certificate you have created in the previous step.
-
 
 19. Click **Advanced Settings**, and under **Additional Identity Provider Properties**, perform the following steps:
    
@@ -207,11 +203,9 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     a. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
    
-    > [!NOTE]
+    > **Note:**
     > The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (for example, `https://fabrikam.service-now.com/navpage.do`).
-    > 
-    > 
-   
+
     b. In the **Entity ID / Issuer** textbox, type the URL of your ServiceNow tenant.
    
     c. In the **Audience URI** textbox, type the URL of your ServiceNow tenant. 
@@ -220,7 +214,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     e. In the **User Field** textbox, type **email** or **user_name**, depending on which field is used to uniquely identify users in your ServiceNow deployment.
    
-    > [!NOTE]
+    > **Note:**
     > You can configure Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section of the Azure portal and mapping the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (for example, user principal name) must match the value stored in ServiceNow for the entered field (for example, user_name)
    
     f. Click **Save**. 

@@ -5,7 +5,7 @@ To configure Azure AD integration with Salesforce, you need the following items:
 - An Azure AD subscription
 - A Salesforce single-sign on enabled subscription
 
-> [!Note]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -25,7 +25,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     ![Configure Single Sign-On](./media/sf-admin-sso-edit.png)
 
-      > [!NOTE]
+      > **Note:**
       > If you are unable to enable Single Sign-On settings for your Salesforce account, you may need to contact [Salesforce Client support team](https://help.salesforce.com/support) to have the feature enabled for you. 
 
 4. Select **SAML Enabled**, and then click **Save**.
@@ -73,7 +73,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     ![Configure Single Sign-On](./media/sf-auth-config.png)
 
-    > [!NOTE]
+    > **Note:**
     > If more than one authentication service is selected, users are prompted to select which authentication service they like to sign in with while initiating single sign-on to your Salesforce environment. If you don’t want it to happen, then you should **leave all other authentication services unchecked**.
 
 

@@ -23,7 +23,7 @@ To test the steps in this tutorial, you should follow these recommendations:
       
 	![Configuring single sign-on on app side](./media/tutorial_successfactors_07.png) 
 
-    > [!NOTE] 
+    > **Note:** 
     > This value is used as the on/off switch. If any value is saved, the SAML SSO is ON. If a blank value is saved the SAML SSO is OFF.
 
 4. Native to below screenshot and perform the following actions:
@@ -48,7 +48,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     i. Copy the content of the downloaded certificate file, and then paste it into the **SAML Verifying Certificate** textbox.
 
-    > [!NOTE] 
+    > **Note:** 
     > The certificate content must have begin certificate and end certificate tags.
 
 5. Navigate to SAML V2, and then perform the following steps:
@@ -76,7 +76,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
 	![Configuring single sign-on on app side](./media/tutorial_successfactors_10.png)
 
-    > [!NOTE] 
+    > **Note:** 
     > If you try to enable this, the system checks if it creates a duplicate SAML login name. For example if the customer has usernames User1 and user1. Taking away case sensitivity makes these duplicates. The system gives you an error message and does not enable the feature. The customer needs to change one of the usernames so it’s spelled different. 
 
 ## Quick Reference

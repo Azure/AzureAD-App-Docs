@@ -5,7 +5,7 @@ To configure Azure AD integration with Docusign, you need the following items:
 - An Azure AD subscription
 - A Docusign single-sign on enabled subscription
 
-> [!Note]: 
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -49,12 +49,11 @@ To test the steps in this tutorial, you should follow these recommendations:
     f. As **Send AuthN request by**, select **POST**.
 
     g. As **Send logout request by**, select **POST**.
+
 8. In the **Custom Attribute Mapping** section, choose the field you want to map with Azure AD Claim. In this example, the **emailaddress** claim is mapped with the value of **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress**. This is the default claim name from Azure AD for email claim. 
    
-	> [!NOTE]
+	> **Note:**
 	> Use the appropriate **User identifier** to map the user from Azure AD to Docusign user mapping. Select the proper Field and enter the appropriate value based on your organization settings.
-	> 
-	> 
    
 	![Configuring single sign-on][57]
 
@@ -63,6 +62,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 	![Configuring single sign-on][58]
 
 10. Click **Save**.
+
 11. In the **Identity Providers** section, click **Actions**, and then click **Endpoints**.   
    
 	![Configuring single sign-on][59]

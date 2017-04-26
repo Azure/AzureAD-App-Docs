@@ -5,7 +5,7 @@ To configure Azure AD integration with ASC Contracts, you need the following ite
 - An Azure AD subscription
 - An ASC Contracts single-sign on enabled subscription
 
-> [!NOTE]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -16,8 +16,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 ### Configuring ASC Contracts for single sign-on
 
  To configure single sign-on on **ASC Contracts** side, contact ASC Contracts support at **613.599.6178** and provide them with the downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)**. They set this application up to have the SAML SSO connection set properly on both sides.
-
-
 
 ## Quick Reference
 

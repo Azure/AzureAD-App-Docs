@@ -5,7 +5,7 @@ To configure Azure AD integration with Concur, you need the following items:
 - An Azure AD subscription
 - A Concur single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -17,8 +17,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 To get SSO configured for your application, Contact [Concur Client support team](https://www.concur.co.in/contact) and provide them with the **[SAML Metadata file](%metadata:metadataDownloadUrl%)** that you can download from **Quick Reference** section.
 
-  >[!NOTE]
-  >The configuration of your Concur subscription for federated SSO via SAML is a separate task, which you must contact [Concur Client support team](https://www.concur.co.in/contact) to perform. 
+>**Note:**
+>The configuration of your Concur subscription for federated SSO via SAML is a separate task, which you must contact [Concur Client support team](https://www.concur.co.in/contact) to perform. 
 
 ## Quick Reference
 

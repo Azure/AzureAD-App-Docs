@@ -5,7 +5,7 @@ To configure Azure AD integration with Absorb LMS, you need the following items:
 - An Azure AD subscription
 - A Absorb LMS single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -35,7 +35,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	a. Select the appropriate **Mode**.
 
-	> [!NOTE]
+	> **Note:**
 	> Mode: Both IdP & SP initiated are supported.
 
 	b. Open the metadata file that you have downloaded from the Azure portal in notepad, copy the certificate string which is located in the **ds:X509Certificate** tag and then paste the content in the **Key** textbox.
@@ -51,9 +51,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 	![Configure Single Sign-On](./media/5.png)
 
 7. Click **"Save."**
-
-
-
 
 ## Quick Reference
 

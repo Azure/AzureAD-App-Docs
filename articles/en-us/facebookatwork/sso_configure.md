@@ -5,7 +5,7 @@ To configure Azure AD integration with Workplace by Facebook, you need the follo
 - An Azure AD subscription
 - A Workplace by Facebook single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -14,7 +14,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 - If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Workplace by Facebook for single sign-on
-
 
 1. In a different web browser window, log in to your Workplace by Facebook company site as an administrator.
 

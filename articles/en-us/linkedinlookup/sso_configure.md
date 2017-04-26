@@ -5,7 +5,7 @@ To configure Azure AD integration with Linkedin Lookup, you need the following i
 - An Azure AD subscription
 - A Linkedin Lookup single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:

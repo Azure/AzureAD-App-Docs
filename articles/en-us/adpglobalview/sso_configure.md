@@ -5,7 +5,7 @@ To configure Azure AD integration with ADP Globalview, you need the following it
 - An Azure AD subscription
 - An ADP Globalview single-sign on enabled subscription
 
-> [!NOTE]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
