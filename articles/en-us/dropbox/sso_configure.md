@@ -17,11 +17,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. To configure single sign-on on **Dropbox for Business** side, Go on your Dropbox for Business tenant, click **Single sign-on** on Settings page. 
    
-    ![Configure single sign-on](./media/sso1.png "Configure single sign-on")
+    ![Configure single sign-on](./media/sso1.png)
 
 2. Perform the following steps
 
-    ![Configure single sign-on](./media/sso2.png "Configure single sign-on")
+    ![Configure single sign-on](./media/sso2.png)
    
     a. Select **Required**.
    
