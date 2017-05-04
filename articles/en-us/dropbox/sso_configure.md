@@ -15,21 +15,29 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Dropbox for Business for single sign-on
 
-1. To configure single sign-on on **Dropbox for Business** side, Go on your Dropbox for Business tenant, in the **Single sign-on** section of the **Authentication** page, perform the following steps: 
+1. To configure single sign-on on **Dropbox for Business** side, Go on your Dropbox for Business tenant, click **Single sign-on** on Settings page. 
    
-    ![Configure single sign-on](./media/ic769516.png "Configure single sign-on")
+    ![Configure single sign-on](./media/sso1.png "Configure single sign-on")
+
+2. Perform the following steps
+
+    ![Configure single sign-on](./media/sso2.png "Configure single sign-on")
    
-    a. Click **Required**.
+    a. Select **Required**.
    
     b. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl% value, and then paste it into the **Sign-in URL** textbox.
 
-    c. Click **Choose certificate**, and then browse to your **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**.
+    c. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign-Out URL**: %metadata:singleSignOutServiceUrl% value, and then paste it into the **sign-out URL** textbox.
 
-    d. Click **Save changes** to complete the configuration on your DropBox for Business tenant.
+    d. Click **Choose certificate**, and then browse to your **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**.
+
+    e. Click **Save changes** to complete the configuration on your DropBox for Business tenant.
 
 ## Quick Reference
 
 * **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl%
+
+* **Azure AD Sign-Out URL**: %metadata:singleSignOutServiceUrl%
 
 * **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
