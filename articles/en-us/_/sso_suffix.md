@@ -7,7 +7,3 @@ To ensure users can sign-in to %metadata:DisplayName% after it has been configur
 - Users must be assigned access to %metadata:DisplayName% in Azure AD to sign-in. To assign users, see Users.
     
 - To configure access polices for %metadata:DisplayName% users, see Access Policies.
-    
-- For additional information on deploying single sign-on to users, see [this article](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/#deploying-azure-ad-integrated-applications-to-users).
-    
-    
