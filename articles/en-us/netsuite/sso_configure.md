@@ -45,11 +45,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 6. In Azure AD, Click **View and edit all other user attributes** check-box and add attribute.
 
-   ![Configure Single Sign-On](./media/ns-attributes.png)
+   ![Configure Single Sign-On](./media/ns-attributes1.png)
 
 7. For the **Attribute Name** field, type in `account`. For the **Attribute Value** field, type in your Netsuite account ID.This value is constant and change with account. Instructions on how to find your account ID are included below:
 
-   ![Configure Single Sign-On](./media/ns-add-attribute.png)
+   ![Configure Single Sign-On](./media/ns-add-attribute1.png)
 
    a. In Netsuite, click **Setup** from the top navigation menu. 
 
