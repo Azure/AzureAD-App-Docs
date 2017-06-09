@@ -19,15 +19,19 @@ To test the steps in this tutorial, you should follow these recommendations:
 2. In the navigation menu on the left, click **Domains**.
    
     ![Configuring single sign-on][51]
+
 3. On the right pane, click **Claim Domain**.
    
     ![Configuring single sign-on][52]
+
 4. On the **Claim a domain** dialog, in the **Domain Name** textbox, type your company domain, and then click **Claim**. Make sure that you verify the domain and the status is active.
    
     ![Configuring single sign-on][53]
+
 5. In menu on the left side, click **Identity Providers**  
    
     ![Configuring single sign-on][54]
+	
 6. In the right pane, click **Add Identity Provider**. 
    
 	![Configuring single sign-on][55]
@@ -38,7 +42,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     a. In the **Name** textbox, type a unique name for your configuration. Please do not use spaces.
 
-    b. Enter the **Azure AD SMAL Entity ID** : %metadata:IssuerUri% into the **Identity Provider Issuer** textbox.
+    b. Enter the **Azure AD SAML Entity ID** : %metadata:IssuerUri% into the **Identity Provider Issuer** textbox.
 
     c. Enter **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% into the **Identity Provider Login URL** textbox.
 
@@ -50,7 +54,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     g. As **Send logout request by**, select **POST**.
 
-8. In the **Custom Attribute Mapping** section, choose the field you want to map with Azure AD Claim. In this example, the **emailaddress** claim is mapped with the value of **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress**. This is the default claim name from Azure AD for email claim. 
+8. In the **Custom Attribute Mapping** section, choose the field you want to map with Azure AD Claim. In this example, the **emailaddress** claim is mapped with the value of `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress`. This is the default claim name from Azure AD for email claim. 
    
 	> **Note:**
 	> Use the appropriate **User identifier** to map the user from Azure AD to Docusign user mapping. Select the proper Field and enter the appropriate value based on your organization settings.
@@ -71,12 +75,10 @@ To test the steps in this tutorial, you should follow these recommendations:
    
 	![Configuring single sign-on][60]
    
-	a. Copy the **Service Provider Issuer URL**, and then paste it into the **Identifier** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://<subdomain>.docusign.com/*'.
+	a. Copy the **Service Provider Issuer URL**, and then paste it into the **Identifier** textbox on **Docusign Domain and URLs** section of the Azure portal.
    
-	b. Copy the **Service Provider Login URL**, and then paste into the **Sign On URL** textbox on **Docusign Domain and URLs** section of the Azure portal following the pattern: 'https://<subdomain>.docusign.com/*'.
-
-	![Configure Single Sign-On](./media/tutorial_docusign_url.png)
-	  
+	b. Copy the **Service Provider Login URL**, and then paste into the **Sign On URL** textbox on **Docusign Domain and URLs** section of the Azure portal.
+  
 	c.  Click **Close**
     
 ## Quick Reference
@@ -92,10 +94,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 <!--Image references-->
 
-[1]: ./media/tutorial_general_01.png
-[2]: ./media/tutorial_general_02.png
-[3]: ./media/tutorial_general_03.png
-[4]: ./media/tutorial_general_04.png
+
 [51]: ./media/tutorial_docusign_21.png
 [52]: ./media/tutorial_docusign_22.png
 [53]: ./media/tutorial_docusign_23.png
@@ -106,13 +105,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 [58]: ./media/tutorial_docusign_26.png
 [59]: ./media/tutorial_docusign_27.png
 [60]: ./media/tutorial_docusign_28.png
-[61]: ./media/tutorial_docusign_29.png
-[100]: ./media/tutorial_general_100.png
 
-[200]: ./media/tutorial_general_200.png
-[201]: ./media/tutorial_general_201.png
-[202]: ./media/tutorial_general_202.png
-[203]: ./media/tutorial_general_203.png
 
 ## Additional Resources
 

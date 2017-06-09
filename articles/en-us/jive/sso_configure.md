@@ -17,23 +17,23 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. To configure single sign-on on **Jive** side, sign-on to your Jive tenant as an administrator.
 
-2. In the menu on the top, Click "**Saml**."
+2. In the menu on the top, Click "**SAML**."
 
 	![Configure Single Sign-On On App Side](./media/tutorial_jive_002.png)
 
 	a. Select **Enabled** under the **General** tab.   
 
-	b. Click the "**Save all saml settings**" button.
+	b. Click the "**SAVE ALL SAML SETTINGS**" button.
 
-3. Navigate to the "**Idp Metadata**" tab.
+3. Navigate to the "**IDP METADATA**" tab.
    
     ![Configure Single Sign-On On App Side](./media/tutorial_jive_003.png)
    
     a. Copy the content of the **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**, and then paste it into the **Identity Provider (IDP) Metadata** textbox.
    
-    b. Click the "**Save all saml settings**" button. 
+    b. Click the "**SAVE ALL SAML SETTINGS**" button. 
 
-4. Go to the "**User Attribute Mapping**" tab.
+4. Go to the "**USER ATTRIBUTE MAPPING**" tab.
    
     ![Configure Single Sign-On On App Side](./media/tutorial_jive_004.png)
    

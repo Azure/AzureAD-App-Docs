@@ -1,9 +1,9 @@
 ## Prerequisites
 
-To configure Azure AD integration with Salesforce, you need the following items:
+To configure Azure AD integration with Salesforce Sandbox, you need the following items:
 
 - An Azure AD subscription
-- A Salesforce single-sign on enabled subscription
+- A Salesforce Sandbox single-sign on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -13,69 +13,69 @@ To test the steps in this tutorial, you should follow these recommendations:
 - Do not use your production environment, unless it is necessary.
 - If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
-### Configuring Salesforce for single sign-on
+### Configuring Salesforce Sandbox for single sign-on
 
-1.  Open a new tab in your browser and log in to your Salesforce administrator account.
+1. Open a new tab in your browser and log in to your Salesforce Sandbox administrator account.
 
-2.  Under the **Administrator** navigation pane, click **Security Controls** to expand the related section. Then click **Single Sign-On Settings**.
+2. In the menu on the top, click **Setup**.
 
-    ![Configure Single Sign-On](./media/sf-admin-sso.png)
+    ![Configure Single Sign-On](./media/ic781024.png)
 
-3.  On the **Single Sign-On Settings** page, click the **Edit** button.
+3. In the navigation pane on the left, click **Security Controls**, and then click **Single Sign-On Settings**.
 
-    ![Configure Single Sign-On](./media/sf-admin-sso-edit.png)
+    ![Configure Single Sign-On](./media/ic781025.png)
 
-      > **Note:**
-      > If you are unable to enable Single Sign-On settings for your Salesforce account, you may need to contact [Salesforce Client support team](https://help.salesforce.com/support) to have the feature enabled for you. 
+4. On the Single Sign-On Settings section, perform the following steps:
 
-4. Select **SAML Enabled**, and then click **Save**.
+     ![Configure Single Sign-On](./media/ic781026.png)
+     
+     a.  Select **SAML Enabled**. 
 
-      ![Configure Single Sign-On](./media/sf-enable-saml.png)
+     b.  Click **New**.
 
-5. To configure your SAML single sign-on settings, click **New**.
+5. On the SAML Single Sign-On Settings section, perform the following steps:
 
-    ![Configure Single Sign-On](./media/sf-admin-sso-new.png)
+    ![Configure Single Sign-On](./media/ic781027.png)
 
-6. On the **SAML Single Sign-On Setting Edit** page, make the following configurations:
+    a.In the Name textbox, type the name of the configuration (e.g.: *SPSSOWAAD\_Test*). 
 
-    ![Configure Single Sign-On](./media/sf-saml-config.png)
+    b. Paste **Azure AD SAML Entity ID** : %metadata:IssuerUri% value into the **Issuer** textbox.
 
-    a. For the **Name** field, type in a friendly name for this configuration. Providing a value for **Name** automatically populate the **API Name** textbox.
+    c. In the **Entity Id** textbox, type **https://test.salesforce.com** if this is the first Salesforce Sandbox instance that you are adding to your directory. If you have already added an instance of Salesforce Sandbox, then for the **Entity ID** type in the **Sign On URL**, which should be in this format: `http://company.my.salesforce.com`  
+ 
+    d. Click **Browse** to upload the downloaded certificate **[Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**.  
 
-    b. Paste **Azure AD SAML Entity ID** : %metadata:IssuerUri% into the **Issuer** field in Salesforce.
+    e. As **SAML Identity Type**, select **Assertion contains the Federation ID from the User object**.
+ 
+	f. As **SAML Identity Location**, select **Identity is in the NameIdentifier element of the Subject statement**.
 
-    c. In the **Entity Id textbox**, type your Salesforce domain name using the following pattern:
-      
-      * Enterprise account: `https://<subdomain>.my.salesforce.com`
-      * Developer account: `https://<subdomain>-dev-ed.my.salesforce.com`
-      
-    d. Click **Browse** or **Choose File** to open the **Choose File to Upload** dialog, select your Salesforce certificate, and then click **Open** to upload the certificate.
+    g. Paste  **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% into the **Identity Provider Login URL** textbox. 
 
-    e. For **SAML Identity Type**, select **Assertion contains User's salesforce.com username**.
+    h. SFDC does not support SAML logout. As a workaround, paste **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% it into the **Identity Provider Logout URL** textbox.
 
-    f. For **SAML Identity Location**, select **Identity is in the NameIdentifier element of the Subject statement**
+    i. As **Service Provider Initiated Request Binding**, select **HTTP POST**. 
 
-    g. Paste **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% into the **Identity Provider Login URL** field in Salesforce.
-    
-    h. For **Service Provider Initiated Request Binding**, select **HTTP Redirect**.
-    
-    i. Finally, click **Save** to apply your SAML single sign-on settings.
+    j. Click **Save**.
 
-7. On the left navigation pane in Salesforce, click **Domain Management** to expand the related section, and then click **My Domain**.
+### Enable your domain
+This section assumes that you already have created a domain.  For more details, see [Defining Your Domain Name](https://help.salesforce.com/HTViewHelpDoc?id=domain_name_define.htm&language=en_US).
 
-     ![Configure Single Sign-On](./media/sf-my-domain.png)
+**To enable your domain, perform the following steps:**
 
-8. Scroll down to the **Authentication Configuration** section, and click the **Edit** button.
+1. In the left navigation pane, click **Domain Management**, and then click **My Domain.**
+   
+     ![Configure Single Sign-On](./media/ic781029.png)
+   
+   > **Note:**
+   >Please make sure that your domain has been configured correctly. 
 
-    ![Configure Single Sign-On](./media/sf-edit-auth-config.png)
+2. In the **Login Page Settings** section, click **Edit**, then, as **Authentication Service**, select the name of the SAML Single Sign-On Setting from the previous section, and finally click **Save**.
+   
+   ![Configure Single Sign-On](./media/ic781030.png)
 
-9. In the **Authentication Service** section, select the friendly name of your SAML SSO configuration, and then click **Save**.
+As soon as you have a domain configured, your users should use the domain URL to login to the Salesforce sandbox.  
 
-    ![Configure Single Sign-On](./media/sf-auth-config.png)
-
-    > **Note:**
-    > If more than one authentication service is selected, users are prompted to select which authentication service they like to sign in with while initiating single sign-on to your Salesforce environment. If you don’t want it to happen, then you should **leave all other authentication services unchecked**.
-
+To get the value of the URL, click the SSO profile you have created in the previous section.    
 
 ## Quick Reference
 
@@ -85,10 +85,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
-* **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
-
+* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 
 ## Additional Resources
 
-* [How to integrate Salesforce with Azure Active Directory](active-directory-saas-salesforce-tutorial.md)
-* [How to configure user provisioning with Salesforce](active-directory-saas-salesforce-user-provisioning-tutorial.md)
+* [How to integrate Salesforce Sandbox with Azure Active Directory](active-directory-saas-salesforcesandbox-tutorial.md)
+* [How to configure user provisioning with Salesforce Sandbox](active-directory-saas-salesforcesandbox-user-provisioning-tutorial.md)

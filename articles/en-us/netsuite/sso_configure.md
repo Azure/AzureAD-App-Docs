@@ -57,7 +57,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
    c. Copy your Netsuite Account ID and paste it into the **Attribute Value** field in Azure AD.
 
-   ![Configure Single Sign-On](./media/ns-account-id.png)
+![Configure Single Sign-On](./media/ns-account-id.png)
 
 8.Before users can perform single sign-on into Netsuite, they must first be assigned the appropriate permissions in Netsuite. Follow the instructions below to assign these permissions.
 

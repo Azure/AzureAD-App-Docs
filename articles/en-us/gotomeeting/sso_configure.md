@@ -20,7 +20,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. Click the **Identity Provider** tab, and then perform the following steps:  
    
-	
 	![SAML setup](./media/ic6892321.png "SAML setup")
    
     a. Select **Manual**
