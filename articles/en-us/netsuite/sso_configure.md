@@ -19,7 +19,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the toolbar at the top of the page, click **Setup**, then click **Setup Manager**.
 
-    ![Configure Single Sign-On](./media/ns-setup.png)
+   ![Configure Single Sign-On](./media/ns-setup.png)
 
 3. From the **Setup Tasks** list, select **Integration**.
 
@@ -43,11 +43,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
    d. Click **Submit**.
 
-6.In Azure AD, Click **View and edit all other user attributes** check-box and add attribute.
+6. In Azure AD, Click **View and edit all other user attributes** check-box and add attribute.
 
    ![Configure Single Sign-On](./media/ns-attributes.png)
 
-7.For the **Attribute Name** field, type in `account`. For the **Attribute Value** field, type in your Netsuite account ID.This value is constant and change with account. Instructions on how to find your account ID are included below:
+7. For the **Attribute Name** field, type in `account`. For the **Attribute Value** field, type in your Netsuite account ID.This value is constant and change with account. Instructions on how to find your account ID are included below:
 
    ![Configure Single Sign-On](./media/ns-add-attribute.png)
 
@@ -57,9 +57,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
    c. Copy your Netsuite Account ID and paste it into the **Attribute Value** field in Azure AD.
 
-![Configure Single Sign-On](./media/ns-account-id.png)
+   ![Configure Single Sign-On](./media/ns-account-id.png)
 
-8.Before users can perform single sign-on into Netsuite, they must first be assigned the appropriate permissions in Netsuite. Follow the instructions below to assign these permissions.
+8. Before users can perform single sign-on into Netsuite, they must first be assigned the appropriate permissions in Netsuite. Follow the instructions below to assign these permissions.
 
    a. On the top navigation menu, click **Setup**, then click **Setup Manager**.
       
@@ -113,5 +113,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Netsuite with Azure Active Directory](active-directory-saas-netsuite-tutorial.md)
-* [How to configure user provisioning with Netsuite](active-directory-saas-netsuite-user-provisioning-tutorial.md)
+* [How to integrate Netsuite with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-netsuite-tutorial)
+* [How to configure user provisioning with Netsuite](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-netsuite-provisioning-tutorial)
