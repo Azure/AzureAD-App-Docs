@@ -19,19 +19,19 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. Go to **Menu \> Workbench**.
    
-    ![Workbench](./media/IC782923.png "Workbench")
+    ![Workbench](./media/ic782923.png "Workbench")
 
 3. Go to **Account Administration**.
    
-    ![Account Administration](./media/IC782924.png "Account Administration")
+    ![Account Administration](./media/ic782924.png "Account Administration")
 
 4. Go to **Edit Tenant Setup – Security**.
    
-    ![Edit Tenant Security](./media/IC782925.png "Edit Tenant Security")
+    ![Edit Tenant Security](./media/ic782925.png "Edit Tenant Security")
 
 5. In the **Redirection URLs** section, perform the following steps:
    
-    ![Redirection URLs](./media/IC7829581.png "Redirection URLs")
+    ![Redirection URLs](./media/ic7829581.png "Redirection URLs")
    
     a. Click **Add Row**.
    
@@ -48,7 +48,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 6. In the **SAML Setup** section, perform the following steps:
    
-    ![SAML Setup](./media/IC782926.png "SAML Setup")
+    ![SAML Setup](./media/ic782926.png "SAML Setup")
    
     a.  Select **Enable SAML Authentication**.
    
@@ -56,7 +56,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 7. In the SAML Identity Providers section, perform the following steps:
    
-    ![SAML Identity Providers](./media/IC7829271.png "SAML Identity Providers")
+    ![SAML Identity Providers](./media/ic7829271.png "SAML Identity Providers")
    
     a. In the Identity Provider Name textbox, type a provider name (for example, *SPInitiatedSSO*).
    
@@ -68,15 +68,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     e. Click **Identity Provider Public Key Certificate**, and then click **Create**. 
 
-    ![Create](./media/IC782928.png "Create")
+    ![Create](./media/ic782928.png "Create")
 
     f. Click **Create x509 Public Key**. 
 
-    ![Create](./media/IC782929.png "Create")
+    ![Create](./media/ic782929.png "Create")
 
 8. In the **View x509 Public Key** section, perform the following steps: 
    
-    ![View x509 Public Key](./media/IC782930.png "View x509 Public Key") 
+    ![View x509 Public Key](./media/ic782930.png "View x509 Public Key") 
    
     a. In the **Name** textbox, type a name for your certificate (for example, *PPE\_SP*).
    
@@ -113,7 +113,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     g. Click **OK**. 
    
-    ![OK](./media/IC782933.png "OK")
+    ![OK](./media/ic782933.png "OK")
 
 ## Quick Reference
 
