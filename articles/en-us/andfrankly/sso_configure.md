@@ -5,7 +5,7 @@ To configure Azure AD integration with &frankly, you need the following items:
 - An Azure AD subscription
 - A &frankly single-sign on enabled subscription
 
-> [!Note]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -23,4 +23,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate &frankly with Azure Active Directory](active-directory-saas-&frankly-tutorial.md)
+* [How to integrate &frankly with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-andfrankly-tutorial)

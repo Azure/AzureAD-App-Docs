@@ -5,7 +5,7 @@ To configure Azure AD integration with 123ContactForm, you need the following it
 - An Azure AD subscription
 - A 123ContactForm single-sign on enabled subscription
 
-> [!NOTE]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -24,4 +24,4 @@ To configure single sign-on on **123ContactForm** side, you need to submit the *
 
 ## Additional Resources
 
-* [How to integrate 123ContactForm with Azure Active Directory](active-directory-saas-123contactform-tutorial.md)
+* [How to integrate 123ContactForm with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-123contactform-tutorial)

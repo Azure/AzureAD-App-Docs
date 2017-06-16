@@ -31,17 +31,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     a. As **Authentication Provider**, select **SAML**.
 
-    b. Paste the **SAML Single Sign-On Service URL** value into the **Login URL** textbox.
+    b. Paste the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value into the **Login URL** textbox which you have copied from the Azure portal.
 
-    c. Paste the **Sign-Out URL** value into the **Logout URL** textbox.
+    c. Paste the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value into the **Logout URL** textbox which you have copied from the Azure portal.
        
     d. Open your [base-64 encoded certificate](%metadata:certificateDownloadBase64Url%) in notepad, copy the content of it into your clipboard, and then paste it to the **Certificate** textbox
 
     e. Click **Save**.
 
      ![Save](./media/ic777673.png "Save")
-
-
 
 ## Quick Reference
 
@@ -55,4 +53,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate AppDynamics with Azure Active Directory](active-directory-saas-appdynamics-tutorial.md)
+* [How to integrate AppDynamics with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-appdynamics-tutorial)

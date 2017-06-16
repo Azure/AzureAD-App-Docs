@@ -5,7 +5,7 @@ To configure Azure AD integration with AppBlade, you need the following items:
 - An Azure AD subscription
 - An AppBlade single-sign on enabled subscription
 
-> [!Note]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring AppBlade for single sign-on
 
- To configure single sign-on on **AppBlade** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** to [AppBlade support team](mailto:support@appblade.com). Also, please ask them to configure the **SSO Issuer URL** as **https://appblade.com/saml**. This setting is required for single sign-on to work.
+ To configure single sign-on on **AppBlade** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** to [AppBlade support team](mailto:support@appblade.com). Also, please ask them to configure the **SSO Issuer URL** as `https://appblade.com/saml`. This setting is required for single sign-on to work.
 
 ## Quick Reference
 
@@ -23,4 +23,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate AppBlade with Azure Active Directory](active-directory-saas-appblade-tutorial.md)
+* [How to integrate AppBlade with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-appblade-tutorial)

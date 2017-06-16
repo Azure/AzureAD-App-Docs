@@ -5,7 +5,7 @@ To configure Azure AD integration with 23 Video, you need the following items:
 - An Azure AD subscription
 - A 23 Video single-sign on enabled subscription
 
-> [!Note]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -29,4 +29,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate 23 Video with Azure Active Directory](active-directory-saas-23video-tutorial.md)
+* [How to integrate 23 Video with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-23video-tutorial)

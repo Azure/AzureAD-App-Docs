@@ -27,4 +27,4 @@ To configure single sign-on on **Allocadia** side, you need to send the download
 
 ## Additional Resources
 
-* [How to integrate Allocadia with Azure Active Directory](active-directory-saas-allocadia-tutorial.md)
+* [How to integrate Allocadia with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-allocadia-tutorial)

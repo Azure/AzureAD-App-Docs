@@ -22,8 +22,6 @@ To configure single sign-on on **Abintegro** side, you need to send the download
 
 * **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
 
-
-
 ## Additional Resources
 
-* [How to integrate Abintegro with Azure Active Directory](active-directory-saas-abintegro-tutorial.md)
+* [How to integrate Abintegro with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-abintegro-tutorial)

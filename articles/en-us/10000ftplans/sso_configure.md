@@ -5,7 +5,7 @@ To configure Azure AD integration with 10,000ft Plans, you need the following it
 - An Azure AD subscription
 - A 10,000ft Plans single-sign on enabled subscription
 
-> [!NOTE]
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -29,4 +29,4 @@ To configure single sign-on on **10,000ft Plans** side, you need to send the **[
 
 ## Additional Resources
 
-* [How to integrate 10,000ft Plans with Azure Active Directory](active-directory-saas-10,000ftplans-tutorial.md)
+* [How to integrate 10,000ft Plans with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-10000ftplans-tutorial)
