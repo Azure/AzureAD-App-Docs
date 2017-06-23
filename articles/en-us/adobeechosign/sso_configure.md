@@ -3,7 +3,7 @@
 To configure Azure AD integration with Adobe Sign, you need the following items:
 
 - An Azure AD subscription
-- An Adobe Sign single-sign on enabled subscription
+- An Adobe Sign single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -19,21 +19,21 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the menu on the top, click **Account**, and then, in the navigation pane on the left die, click **SAML Settings** under **Account Settings**.
    
-   ![Account](./media/IC789520.png "Account")
+    ![Account](./media/ic789520.png "Account")
 
 3. In the SAML Settings section, perform the following steps:
    
-   ![SAML Settings](./media/IC789521.png "SAML Settings")
+    ![SAML Settings](./media/ic789521.png "SAML Settings")
    
-   a. As **SAML Mode**, select **SAML Mandatory**.
+    a. As **SAML Mode**, select **SAML Mandatory**.
    
-   b. Select **Allow EchoSign Account Administrators to log in using their EchoSign Credentials**.
+    b. Select **Allow EchoSign Account Administrators to log in using their EchoSign Credentials**.
    
-   c. As **User Creation**, select **Automatically add users authenticated through SAML**.
+    c. As **User Creation**, select **Automatically add users authenticated through SAML**.
 
 4. Move on, performing the following steps:
 
-    ![SAML Settings](./media/IC789522.png "SAML Settings")
+    ![SAML Settings](./media/ic789522.png "SAML Settings")
 
     a. Paste **Azure AD SAML Entity ID** : %metadata:IssuerUri% into the **IdP Entity ID** textbox.
    	

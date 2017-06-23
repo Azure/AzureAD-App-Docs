@@ -23,4 +23,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate ADP eTime with Azure Active Directory](active-directory-saas-adpetime-tutorial.md)
+* [How to integrate ADP eTime with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-adpetime-tutorial)

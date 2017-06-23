@@ -3,7 +3,7 @@
 To configure Azure AD integration with Clever, you need the following items:
 
 - An Azure AD subscription
-- A Clever single-sign on enabled subscription
+- A Clever single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -19,7 +19,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the toolbar, click **Instant Login**.
    
-   ![Instant Login](./media/ic798984.png "Instant Login")
+    ![Instant Login](./media/ic798984.png "Instant Login")
 
 3. On the **Instant Login** page, perform the following steps:
       
@@ -27,7 +27,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	a. Type the **Login URL**.
 	
-	>[!NOTE]
+	>**Note:**
 	>The **Login URL** is a custom value. You can get the actual value from your [Clever Client support team](https://clever.com/about/contact/).
 
 	b. As **Identity System**, select **ADFS**.

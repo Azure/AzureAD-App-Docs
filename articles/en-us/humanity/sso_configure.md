@@ -50,8 +50,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
-
-
 ## Additional Resources
 
 * [How to integrate Humanity with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-shiftplanning-tutorial)

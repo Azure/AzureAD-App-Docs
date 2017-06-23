@@ -3,7 +3,7 @@
 To configure Azure AD integration with Cimpl, you need the following items:
 
 - An Azure AD subscription
-- A Cimpl single-sign on enabled subscription
+- A Cimpl single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.

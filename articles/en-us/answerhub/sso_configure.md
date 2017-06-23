@@ -17,7 +17,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. In a different web browser window, log into your AnswerHub company site as an administrator.
    
-    >[!NOTE]
+    >**Note:**
     >If you need help configuring AnswerHub, contact [AnswerHub's support team](mailto:success@answerhub.com.).
    
 2. Go to **Administration**.

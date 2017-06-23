@@ -33,7 +33,7 @@ To test the steps in this tutorial, you should follow these recommendations:
     
 	d. In the SAM SSO URL textbox, replace `<your subdomain>` with your subdomain.
    
-    e. In the SAM SSO URL textbox, replace `<saml sso url>` with the SAML SSO URL you have copied from the Azure portal.
+    e. In the SAM SSO URL textbox, replace `<saml sso url>` with the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% you have copied from the Azure portal.
    
     f. Click **Save Settings**.
 

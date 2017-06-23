@@ -15,10 +15,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Degreed for single sign-on
 
-To configure single sign-on on **Degreed** side, you need to send the downloaded **Metadata XML** to [Degreed support team](mailTo:admin@degreed.com). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **Degreed** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** to [Degreed support team](mailto:admin@degreed.com). They set this setting to have the SAML SSO connection set properly on both sides.
 
 ## Quick Reference
-
 
 * **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
 

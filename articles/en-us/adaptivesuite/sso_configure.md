@@ -3,32 +3,31 @@
 To configure Azure AD integration with Adaptive Suite, you need the following items:
 
 - An Azure AD subscription
-- A Adaptive Suite single-sign on enabled subscription
+- An Adaptive Suite single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
 
-- You should not use your production environment, unless this is necessary.
+- Do not use your production environment, unless it is necessary.
 - If you don't have an Azure AD trial environment, you can get an one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring Adaptive Suite for single sign-on
-
 
 1. In a different web browser window, log in to your Adaptive Suite company site as an administrator.
 
 2. Go to **Admin**.
    
-	![Admin](./media/IC805644.png "Admin")
+	![Admin](./media/ic805644.png "Admin")
 
 3. In the **Users and Roles** section, click **Manage SAML SSO Settings**.
    
-	![Manage SAML SSO Settings](./media/IC805645.png "Manage SAML SSO Settings")
+	![Manage SAML SSO Settings](./media/ic805645.png "Manage SAML SSO Settings")
 
 4. On the **SAML SSO Settings** page, perform the following steps:
    
-	![SAML SSO Settings](./media/IC805646.png "SAML SSO Settings")
+	![SAML SSO Settings](./media/ic805646.png "SAML SSO Settings")
 
 	a. In the **Identity provider name** textbox, type a name for your configuration.
 	
@@ -39,14 +38,16 @@ To test the steps in this tutorial, you should follow these recommendations:
 	d. Paste the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value copied from Azure portal into the **Custom logout URL** textbox.
   
 	e. To upload your downloaded **[Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** , click **Choose file**.
-  
-	f. Select the following, for:
-    * **SAML user id**, select **User’s Adaptive Insights user name**.
-    * **SAML user id location**, select **User id in NameID of Subject**.
-    * **SAML NameID format**, select **Email address**.
-    * **Enable SAML**, select **Allow SAML SSO and direct Adaptive Insights login**.
+
+    f. **SAML user id**, select **User’s Adaptive Insights user name**.
+
+    g. **SAML user id location**, select **User id in NameID of Subject**.
+
+    h. **SAML NameID format**, select **Email address**.
+
+    i. **Enable SAML**, select **Allow SAML SSO and direct Adaptive Insights login**.
 	
-	g. Click **Save**.
+    j. Click **Save**.
 
 ## Quick Reference
 

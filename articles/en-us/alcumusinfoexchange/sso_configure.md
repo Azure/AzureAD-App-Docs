@@ -3,7 +3,7 @@
 To configure Azure AD integration with Alcumus Info Exchange, you need the following items:
 
 - An Azure AD subscription
-- An Alcumus Info Exchange single-sign on enabled subscription
+- An Alcumus Info Exchange single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.

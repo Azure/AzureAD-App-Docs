@@ -3,7 +3,7 @@
 To configure Azure AD integration with Birst Agile Business Analytics, you need the following items:
 
 - An Azure AD subscription
-- A Birst Agile Business Analytics single-sign on enabled subscription
+- A Birst Agile Business Analytics single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.

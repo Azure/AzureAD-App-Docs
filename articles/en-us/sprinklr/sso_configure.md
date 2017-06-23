@@ -27,7 +27,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 4. Click **+Add Single Sign Ons**.
    
-    ![Single Sign-Ons](./media/IC782909.png "Single Sign-Ons")
+    ![Single Sign-Ons](./media/ic782909.png "Single Sign-Ons")
 
 5. On the **Single Sign on** page, perform the following steps:
    

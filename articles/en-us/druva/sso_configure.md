@@ -25,11 +25,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Single Sign-On Settings](./media/ic795092.png "Single Sign-On Settings")
 	
-	a. Paste **SAML Single Sign-On Service URL** into the **ID Provider Login URL** textbox.
+	a. Paste **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% into the **ID Provider Login URL** textbox.
 	
-	b. Paste **Sign-Out URL** into the **ID Provider Logout URL** textbox.
+	b. Paste **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% into the **ID Provider Logout URL** textbox.
 	
-	 c. Open your base-64 encoded certificate in notepad, copy the content of it into your clipboard, and then paste it to the **ID Provider Certificate** textbox
+	 c. Open your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** in notepad, copy the content of it into your clipboard, and then paste it to the **ID Provider Certificate** textbox
 	 
 	 d. To open the **Settings** page, click **Save**.
 
