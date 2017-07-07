@@ -59,4 +59,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Adaptive Suite with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-adaptive-suite-tutorial)
+* [How to integrate Adaptive Suite with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-adaptivesuite-tutorial)

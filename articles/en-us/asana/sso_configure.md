@@ -21,7 +21,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. Right click the [certificate](%metadata:certificateDownloadBase64Url%) downloaded from Azure portal, then open the certificate file using Notepad or you preferred text editor. Copy the content between the begin and the end certificate title. This is the X.509 certificate you will use in Asana to configure SSO.
 
-
 3. On the **Organization settings** window, click **Administration**. Then, click **Members must log in via SAML** to enable the SSO configuration. The perform the following steps:
    
     ![Configure Single Sign-On](./media/tutorial_asana_10.png)  
