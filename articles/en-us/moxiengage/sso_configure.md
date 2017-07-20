@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Moxi Engage for single sign-on
 
-1. To configure single sign-on on **Moxi Engage** side, you need to send the downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)** to [Moxi Engage support team](mailto:support@moxiworks.com). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **Moxi Engage** side, you need to send the downloaded **[SAML Metadata file](%metadata:metadataDownloadUrl%)** to [Moxi Engage support team](mailto:support@moxiworks.com). They set this setting to have the SAML SSO connection set properly on both sides.
 
 ## Quick Reference
 

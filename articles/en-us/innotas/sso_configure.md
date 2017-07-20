@@ -23,4 +23,4 @@ To configure single sign-on on **Innotas** side, you need to send the downloaded
 
 ## Additional Resources
 
-* [How to integrate innotas with Azure Active Directory](active-directory-saas-innotas-tutorial.md)
+* [How to integrate innotas with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-innotas-tutorial)

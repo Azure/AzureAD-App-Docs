@@ -3,7 +3,7 @@
 To configure Azure AD integration with UserVoice, you need the following items:
 
 - An Azure AD subscription
-- A UserVoice single-sign on enabled subscription
+- A UserVoice single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -11,7 +11,7 @@ To configure Azure AD integration with UserVoice, you need the following items:
 To test the steps in this tutorial, you should follow these recommendations:
 
 - Do not use your production environment, unless it is necessary.
-- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- If you don't have an Azure AD trial environment, you can get a one-month trial here: [trail offer](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring UserVoice for single sign-on
 
@@ -19,28 +19,25 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the toolbar on the top, click **Settings**, and then select **Web portal** from the menu.
    
-    ![Settings](./media/IC777519.png "Settings")
+    ![Settings Section On App Side](./media/ic777519.png "Settings")
 
-3. On the **Web portal** tab, in the **User authentication** section, click **Edit** to open the **Edit User Authentication** dialog page
+3. On the **Web portal** tab, in the **User authentication** section, click **Edit** to open the **Edit User Authentication** dialog page.
    
-    ![Web portal](./media/IC777520.png "Web portal")
+    ![Web portal Tab](./media/ic777520.png "Web portal")
 
 4. On the **Edit User Authentication** dialog page, perform the following steps:
    
-    ![Edit user authentication](./media/IC777521.png "Edit user authentication")
+    ![Edit user authentication](./media/ic777521.png "Edit user authentication")
    
     a. Click **Single Sign-On (SSO)**.
  
-    b. Paste the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value into the **SSO Remote Sign-In** textbox.
+    b. Paste the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value, which you have copied from the Azure portal into the **SSO Remote Sign-In** textbox.
 
-    c. Paste the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value into the **SSO Remote Sign-Out textbox**.
+    c. Paste the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value, which you have copied from the Azure portal into the **SSO Remote Sign-Out textbox**.
  
-    d. Copy the **Thumbprint** value from the exported certificate **[Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**, and then paste it into the **Current certificate SHA1 fingerprint** textbox.  
-      
-    > [!TIP]
-    > For more information, see [How to retrieve a certificate's thumbprint value](http://youtu.be/YKQF266SAxI)
- 
-    e. Click **Save authentication settings**.
+    d. Paste the **Thumbprint** value , which you have copied from Azure portal  into the **Current certificate SHA1 fingerprint** textbox.
+	
+	e. Click **Save authentication settings**.
 
 ## Quick Reference
 
@@ -48,9 +45,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
-* **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
-
+* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 
 ## Additional Resources
 
-* [How to integrate UserVoice with Azure Active Directory](active-directory-saas-uservoice-tutorial.md)
+* [How to integrate UserVoice with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-uservoice-tutorial)

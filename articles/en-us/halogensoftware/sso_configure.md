@@ -37,16 +37,12 @@ To test the steps in this tutorial, you should follow these recommendations:
  
      d. To test the configuration, click **Run Test**. 
     
-	>[!NOTE]
+	>**Note:**
     >You need to wait for the message "*The SAML test is complete. Please close this window*". Then, close the opened browser window. The **Enable SAML** checkbox is only enabled if the test has been completed. 
      
 	 e. Select **Enable SAML**.
     
 	 f. Click **Save Changes**. 
-
-
-
-
 
 ## Quick Reference
 
