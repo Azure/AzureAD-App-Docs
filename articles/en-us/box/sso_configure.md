@@ -24,5 +24,5 @@ To get SSO configured for your application, Contact [Box Client support team](ht
 
 ## Additional resources
 
-* [How to integrate Box with Azure Active Directory](active-directory-saas-box-tutorial.md)
-* [How to configure user provisioning with Box](active-directory-saas-box-user-provisioning-tutorial.md)
+* [How to integrate Box with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-box-tutorial)
+* [How to configure user provisioning with Box](https://docs.microsoft.com/azure/active-directory/active-directory-saas-box-userprovisioning-tutorial)

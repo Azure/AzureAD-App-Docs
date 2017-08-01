@@ -20,15 +20,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the menu on the top, click **Administration**.
    
-   ![Administration](./media/IC800206.png "Administration")
+   ![Administration](./media/ic800206.png "Administration")
 
 3. Under **Manage Administrators & Roles**, click **Manage Users & Authentication**.   
    			
-	![Manage Users & Authentication](./media/IC800207.png "Manage Users & Authentication")
+	![Manage Users & Authentication](./media/ic800207.png "Manage Users & Authentication")
 
 4. In the **Choose Authentication Options for your Organization** section, perform the following steps:   
    				
-	![Authentication](./media/IC800208.png "Authentication")
+	![Authentication](./media/ic800208.png "Authentication")
    
     a. Select **Authenticate using SAML Single Sign-On**.
 
@@ -36,7 +36,7 @@ To test the steps in this tutorial, you should follow these recommendations:
   
 5.  On the **Configure SAML Single Sign-On Parameters** dialog page, perform the following steps, and then click **Done**:   
    
-	![Single Sign-On](./media/IC800209.png "Single Sign-On")
+	![Single Sign-On](./media/ic800209.png "Single Sign-On")
    
 6. Paste the **SAML Single Sign-On Service URL** value into the **URL of the SAML Portal to which users are sent for authentication** textbox.
 
@@ -48,7 +48,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 10. On the **Configure User Authentication** dialog page, perform the following steps:
 
-    ![Administration](./media/IC800210.png "Administration")
+    ![Administration](./media/ic800210.png "Administration")
     
     a. Click **Save**.
 
@@ -59,17 +59,17 @@ To test the steps in this tutorial, you should follow these recommendations:
 1. Start **Internet Explorer**.
 2. To open the **Internet Options** dialog, Select **Internet options** from the **Tools** menu.   
   	
-	 ![Internet Options](./media/IC769492.png "Internet Options")
+	 ![Internet Options](./media/ic769492.png "Internet Options")
 
 3. Click the **Connections** tab.   
   
-	 ![Connections](./media/IC769493.png "Connections")
+	 ![Connections](./media/ic769493.png "Connections")
 
 4. Click **LAN settings** to open the **LAN Settings** dialog.
 
 5. In the Proxy server section, perform the following steps:   
    
-	![Proxy server](./media/IC769494.png "Proxy server")
+	![Proxy server](./media/ic769494.png "Proxy server")
 
     a. Select Use a proxy server for your LAN.
 
@@ -83,11 +83,14 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 6. Click **OK** to close the **Internet Options** dialog.
 
-
 ## Quick Reference
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
 * **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
+
+## Additional Resources
+
+* [How to integrate Zscaler ZSCloud with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-zscaler-zscloud-tutorial)
 
 

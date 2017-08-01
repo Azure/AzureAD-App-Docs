@@ -21,15 +21,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 3. In the menu on the top, click **Site Administration**.
 
-	![Site Administration](./media/IC777621.png "Site Administration")
+	![Site Administration](./media/ic777621.png "Site Administration")
 
 4. In the **Manage Site** section, click **SSO Configuration**.
    
-	![SSO Configuration](./media/IC777622.png "SSO Configuration")
+	![SSO Configuration](./media/ic777622.png "SSO Configuration")
 
 5. In the Federated Web SSO Configuration section, perform the following steps:
    
-	![Federated SSO Configuration](./media/IC777623.png "Federated SSO Configuration")  
+	![Federated SSO Configuration](./media/ic777623.png "Federated SSO Configuration")  
 
 	a. From the **Federation Protocol** list, select **SAML 2.0**.
 
@@ -69,4 +69,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Cisco WebEx with Azure Active Directory](active-directory-saas-ciscowebEx-tutorial.md)
+* [How to integrate Cisco WebEx with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-cisco-webex-tutorial)

@@ -19,19 +19,19 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. Go to **HR Admin**.
    
-    ![HR Admin](./media/IC789634.png "HR Admin")
+    ![HR Admin](./media/ic789634.png "HR Admin")
 
 3. Click **Setup**.
    
-    ![Setup](./media/IC789635.png "Setup")
+    ![Setup](./media/ic789635.png "Setup")
 
 4. Click **Set up SAML provider details**.
    
-    ![SAML Settings](./media/IC789636.png "SAML Settings")
+    ![SAML Settings](./media/ic789636.png "SAML Settings")
 
 5. In the SAML provider details section, perform the following steps:
    
-    ![SAML Settings](./media/IC789637.png "SAML Settings")   
+    ![SAML Settings](./media/ic789637.png "SAML Settings")   
 
     a. paste the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value in to the **URL** textbox.
           
@@ -39,7 +39,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 6. To complete the SAML provider configuration, perform the following steps:
     
-    ![SAML Settings](./media/IC789638.png "SAML Settings") 
+    ![SAML Settings](./media/ic789638.png "SAML Settings") 
 
     a. In the **Test Email Addresses**, type the test user’s email address. 
   
@@ -55,4 +55,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate TeamSeer with Azure Active Directory](active-directory-saas-teamseer-tutorial.md)
+* [How to integrate TeamSeer with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-teamseer-tutorial)

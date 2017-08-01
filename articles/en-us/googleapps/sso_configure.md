@@ -74,5 +74,5 @@ f. Click **Save Changes**.
 
 ## Additional Resources
 
-* [How to integrate Google Apps with Azure Active Directory](active-directory-saas-googleapps-tutorial.md)
-* [How to configure user provisioning with Google Apps](active-directory-saas-googleapps-user-provisioning-tutorial.md)
+* [How to integrate Google Apps with Azure Active Directory](active-directory-saas-google-apps-tutorial.md)
+* [How to configure user provisioning with Google Apps](active-directory-saas-google-apps-user-provisioning-tutorial.md)

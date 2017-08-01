@@ -24,7 +24,7 @@ To get SSO configured for your application, contact [Convercent support team](ma
 
 ## Additional Resources
 
-* [How to integrate Convercent with Azure Active Directory](active-directory-saas-convercent-tutorial.md)
+* [How to integrate Convercent with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-convercent-tutorial)
 
 
 

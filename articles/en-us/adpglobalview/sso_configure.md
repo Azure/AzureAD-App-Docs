@@ -30,4 +30,4 @@ To test the steps in this tutorial, you should follow these recommendations:
  
 ## Additional Resources
 
-* [How to integrate Absorb ADP Globalview with Azure Active Directory](active-directory-saas-adpglobalview-tutorial.md)
+* [How to integrate Absorb ADP Globalview with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-adglobalview-tutorial)

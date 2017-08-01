@@ -20,19 +20,19 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the left navigation pane, click **Accounts**, and then click **Administrators**.
    
-   ![Administrators](./media/ic791920.png "Administrators")
+    ![Administrators](./media/ic791920.png "Administrators")
 
 3. Expand the **Settings** menu, and then click **Directory Services**.
    
-   ![Settings](./media/ic791921.png "Settings")
+    ![Settings](./media/ic791921.png "Settings")
 
 4. Click the **User** tab, in the **Base DN** textbox, type your domain name, and then click **Save**.
    
-   ![User](./media/ic791922.png "User")
+    ![User](./media/ic791922.png "User")
 
 5. Click the **Server** tab.
    
-   ![Server](./media/ic791923.png "Server")
+    ![Server](./media/ic791923.png "Server")
 
 6. Perform the following steps:
     
@@ -90,5 +90,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate AirWatch with Azure Active Directory](active-directory-saas-Airwatch-tutorial.md)
+* [How to integrate AirWatch with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-airwatch-tutorial)
 

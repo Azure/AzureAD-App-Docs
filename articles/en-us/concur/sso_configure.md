@@ -29,4 +29,4 @@ To get SSO configured for your application, Contact [Concur Client support team]
 ## Additional Resources
 
 * [How to integrate Concur with Azure Active Directory](active-directory-saas-concur-tutorial.md)
-* [How to configure user provisioning with Concur](active-directory-saas-concur-user-provisioning-tutorial.md)
+* [How to configure user provisioning with Concur](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-concur-tutorial)

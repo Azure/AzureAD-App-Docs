@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring huddle for single sign-on
 
-7. To configure single sign-on on Huddle side, you need to send the downloaded  **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, and **Azure AD SAML Entity ID** : %metadata:IssuerUri% to [Huddle Client support team](https://huddle.zendesk.com). They set this setting to have the SAML SSO connection set properly on both sides.  
+To configure single sign-on on Huddle side, you need to send the downloaded  **[Downloaded Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, and **Azure AD SAML Entity ID** : %metadata:IssuerUri% to [Huddle Client support team](https://huddle.zendesk.com). They set this setting to have the SAML SSO connection set properly on both sides.  
 
 ## Quick Reference
 

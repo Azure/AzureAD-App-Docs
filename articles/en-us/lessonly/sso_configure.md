@@ -29,4 +29,4 @@ To configure single sign-on on **Lesson.ly** side, you need to send the **[Downl
 
 ## Additional Resources
 
-* [How to integrate Lesson.ly with Azure Active Directory](active-directory-saas-lesson.ly-tutorial.md)
+* [How to integrate Lesson.ly with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-lessonly-tutorial)

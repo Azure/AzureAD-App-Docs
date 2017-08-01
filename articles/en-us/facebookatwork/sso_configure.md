@@ -3,7 +3,7 @@
 To configure Azure AD integration with Workplace by Facebook, you need the following items:
 
 - An Azure AD subscription
-- A Workplace by Facebook single-sign on enabled subscription
+- A Workplace by Facebook single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -32,4 +32,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Workplace by Facebook with Azure Active Directory](active-directory-saas-workplacebyfacebook-tutorial.md)
+* [How to integrate Workplace by Facebook with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-facebook-at-work-tutorial)

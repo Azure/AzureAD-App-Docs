@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Optimizely for single sign-on
 
-1. To configure single sign-on on **Optimizely** side, you need to send the downloaded **[Certificate(Base64)](%metadata:certificateDownloadBase64Url%)** and **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl% to [Optimizely support](https://www.optimizely.com/contact).
+1. To configure single sign-on on **Optimizely** side, you need to send the **[Downloaded Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** and **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl% to [Optimizely support](https://www.optimizely.com/contact).
 
 2. In a different browser window, sign-on to your Optimizely application.
 

@@ -5,7 +5,7 @@ To configure Azure AD integration with Kindling, you need the following items:
 - An Azure AD subscription
 - A Kindling single-sign on enabled subscription
 
-> [!Note]:
+> **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
 
 To test the steps in this tutorial, you should follow these recommendations:
@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Kindling for single sign-on
 
- To configure single sign-on on **Kindling** side, you need to send the downloaded **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [Kindling support](mailto:support@kindlingapp.com).
+ To configure single sign-on on **Kindling** side, you need to send the downloaded **[Downloaded Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [Kindling support](mailto:support@kindlingapp.com).
 
 ## Quick Reference
 
@@ -29,5 +29,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Kindling with Azure Active Directory](active-directory-saas-kindling-tutorial.md)
+* [How to integrate Kindling with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-kindling-tutorial)
 

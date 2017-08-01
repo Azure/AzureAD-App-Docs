@@ -1,0 +1,69 @@
+{
+    "AppCategory": "ISV9_2",
+    "AppKey": "jobscience",
+    "IdentifierUris": [
+        "jobscience/primary",
+        "https://salesforce-jobscience.com"
+    ],
+    "HomePageUrl": "http://www.jobscience.com/",
+    "DisplayName": "Jobscience",
+    "PasswordSsoConfigurationSettings": [
+		{
+			"StorageKey": "PwdSsoSignInUrl",
+			"Type": "text",
+			"Label": "PasswordSso Sign In URL",
+			"LabelId": "PwdSsoSignInUrlLabelId",
+			"Description": "",
+			"Example": "http://pro.jobscience.com/login"
+		}
+	],
+    "Publisher": "Jobscience",
+    "Visible": true,
+    "ChangeHistory": "ISV9.3_TO_9.2",
+    "Version": 0,
+    "ReplyUrls": [
+        "https://*.my.salesforce.com/*"
+    ],
+    "EntitlementsAvailable": true,
+    "Entitlements": [
+        {
+            "Definition": "msiam_access",
+            "Description": "msiam_access",
+            "Name": "msiam_access"
+        }
+    ],
+    "DisplayCategories": [
+        "humanResources"
+    ],
+    "SsoOptions": "Federated, Password, External",
+    "UIConfigurationSettings": [
+        {
+            "key": "HasEntitlementConfiguration",
+            "value": "true"
+        },
+        {
+            "key": "SsoConfigurationFields",
+            "value": "signInUrl"
+        },
+        {
+            "key": "SsoConfigureInformation",
+            "value": "singleSignOnServiceAsRemoteLoginUrl, singleLogoutServiceAsRemoteLogoutUrl, identityProviderAsIssuerUrl"
+        },
+        {
+            "key": "SsoCertificateType",
+            "value": "certificateBase64"
+        },
+        {
+            "key": "SsoConfigureInstruction2FwLink",
+            "value": "522559"
+        },
+        {
+            "key": "SsoFederatedIsOnlyForMetadataDrivenUi",
+            "value": "true"
+        },
+	{
+	    "key": "SignInUrlExample",
+	    "value": "https://EXAMPLE.my.salesforce.com"
+	}
+    ]
+}

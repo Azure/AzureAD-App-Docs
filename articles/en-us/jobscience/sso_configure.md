@@ -17,11 +17,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. On the Jobscience company site, click **Security Controls**, and then click **Single Sign-On Settings**.
     
-    ![Security Controls](./media/IC784364.png "Security Controls")
+    ![Security Controls](./media/ic784364.png "Security Controls")
 
 2. In the **Single Sign-On Settings** section, perform the following steps:
     
-    ![Single Sign-On Settings](./media/IC781026.png "Single Sign-On Settings")
+    ![Single Sign-On Settings](./media/ic781026.png "Single Sign-On Settings")
     
     a. Select **SAML Enabled**.
 
@@ -29,7 +29,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 3. On the **SAML Single Sign-On Setting Edit** dialog, perform the following steps:
     
-    ![SAML Single Sign-On Setting](./media/IC784365.png "SAML Single Sign-On Setting")
+    ![SAML Single Sign-On Setting](./media/ic784365.png "SAML Single Sign-On Setting")
     
     a. In the **Name** textbox, type a name for your configuration.
 
@@ -45,8 +45,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	g. In **Identity Provider Login URL** textbox, paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, which you have copied from Azure portal.
 
-	h. In **Identity Provider Logout URL** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
-, which you have copied from Azure portal.
+	h. In **Identity Provider Logout URL** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, which you have copied from Azure portal.
 
     i. Click **Save**.
 
@@ -72,4 +71,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate jobscience with Azure Active Directory]()
+* [How to integrate jobscience with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-jobscience-tutorial)

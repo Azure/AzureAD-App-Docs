@@ -77,6 +77,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Atlassian Cloud with Azure Active Directory](active-directory-saas-atlassiancloud-tutorial.md)
+* [How to integrate Atlassian Cloud with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-atlassian-cloud-tutorial)
 
 

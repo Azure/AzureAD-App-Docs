@@ -3,7 +3,7 @@
 To configure Azure AD integration with worksmobile, you need the following items:
 
 - An Azure AD subscription
-- A worksmobile single-sign on enabled subscription
+- A worksmobile single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -15,15 +15,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring worksmobile for single sign-on
 
-1. To get SSO configured for your application, contact [WORKS MOBILE support team](mailto:dl_ssoinfo@worksmobile.com) and provide them with the following information: 
+To get SSO configured for your application, contact [WORKS MOBILE support team](mailto:dl_ssoinfo@worksmobile.com) and provide them with the following information: 
 
-	• The downloaded **Certificate file**
+• The downloaded **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
 
-	• The **SAML Single Sign-On Service URL**
+• **Azure AD Single Sign-On Service URL : %metadata:singleSignOnServiceUrl%
 
-	• The **SAML Entity ID**
+• **Azure AD SMAL Entity ID : %metadata:IssuerUri%
 
-	• The **Sign-Out URL**
+• **Azure AD Sign Out URL : %metadata:singleSignOutServiceUrl%
 
 ## Quick Reference
 
@@ -37,6 +37,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate worksmobile with Azure Active Directory](active-directory-saas-worksmobile-tutorial.md)
+* [How to integrate worksmobile with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-worksmobile-tutorial)
 
 

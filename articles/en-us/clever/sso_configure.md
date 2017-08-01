@@ -18,13 +18,13 @@ To test the steps in this tutorial, you should follow these recommendations:
 1. In a different web browser window, log in to your Clever company site as an administrator.
 
 2. In the toolbar, click **Instant Login**.
-   
-    ![Instant Login](./media/ic798984.png "Instant Login")
+
+	![Instant Login](./media/ic798984.png "Instant Login")
 
 3. On the **Instant Login** page, perform the following steps:
-      
-	  ![Instant Login](./media/ic798985.png "Instant Login")
 
+	![Instant Login](./media/ic798985.png "Instant Login")
+	
 	a. Type the **Login URL**.
 	
 	>**Note:**

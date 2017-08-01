@@ -98,7 +98,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Amazon Web Services (AWS) with Azure Active Directory](active-directory-saas-amazonwebservices(aws)-tutorial.md)
+* [How to integrate Amazon Web Services (AWS) with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-amazon-web-service-tutorial)
 
 [11]: ./media/ic795031.png
 [12]: ./media/ic795032.png

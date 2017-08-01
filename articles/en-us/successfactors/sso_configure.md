@@ -89,4 +89,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
-* [How to integrate SuccessFactors with Azure Active Directory](active-directory-saas-successfactors-tutorial.m
+## Additional Resources
+
+* [How to integrate SuccessFactors with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-successfactors-tutorial)

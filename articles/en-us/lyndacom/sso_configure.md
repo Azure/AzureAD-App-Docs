@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Lynda.com for single sign-on
 
-1. To configure single sign-on on **Lynda.com** side, you need to send the downloaded **Metadata XML** [Lynda.com support](https://www.linkedin.com/help/lynda/ask).
+To configure single sign-on on **Lynda.com** side, you need to send the downloaded **Metadata XML** [Lynda.com support](https://www.linkedin.com/help/lynda/ask).
 
 ## Quick Reference
 
@@ -23,4 +23,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Lynda.com with Azure Active Directory](active-directory-saas-lynda.com-tutorial.md)
+* [How to integrate Lynda.com with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-lynda-tutorial)

@@ -1,4 +1,4 @@
- ## Prerequisites
+## Prerequisites
 
 To configure Azure AD integration with Citrix GoToMeeting, you need the following items:
 
@@ -24,25 +24,27 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     a. Select **Manual**
 
-    b. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl% value, and then paste it into the **Sign-in page URL** textbox. 
+    b. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value, and then paste it into the **Sign-in page URL** textbox. 
 
-    c. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD Sign Out URL**: %metadata:singleSignOutServiceUrl% value, and then paste it into the **Sign-out page URL** textbox.
+    c. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value, and then paste it into the **Sign-out page URL** textbox.
 
-    d. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD SAML Entity ID**: %metadata:IssuerUri% value, and then paste it into the **Identity Provider Entity ID** textbox.
+    d. In the Azure portal, on the **Configure single sign-on at Citrix GoToMeeting** dialog page, copy the **Azure AD SAML Entity ID** : %metadata:IssuerUri% value, and then paste it into the **Identity Provider Entity ID** textbox.
 
-    e. To upload your downloaded certificate, click **Upload Certificate**.
+    e. To upload your **[Downloaded Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, click **Upload Certificate**.
 
     f. Click **Save**.
 
 ## Quick Reference
 
-* **Azure AD SAML Entity ID**: %metadata:IssuerUri%
+* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl%
+* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
-* **Azure AD Sign Out URL**: %metadata:singleSignOutServiceUrl%
+* **Azure AD SAML Entity ID** : %metadata:IssuerUri%
+
+* **[Download Azure AD Signing Certificate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
 ## Additional Resources
 
-* [How to integrate Citrix GoToMeeting with Azure Active Directory](active-directory-saas-citrixgotomeeting-tutorial.md)
-* [How to configure user provisioning with Citrix GoToMeeting](active-directory-saas-citrixgotomeeting-user-provisioning-tutorial.md)
+* [How to integrate Citrix GoToMeeting with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-citrix-gotomeeting-tutorial)
+* [How to configure user provisioning with Citrix GoToMeeting](https://docs.microsoft.com/azure/active-directory/active-directory-saas-citrixgotomeeting-provisioning-tutorial)

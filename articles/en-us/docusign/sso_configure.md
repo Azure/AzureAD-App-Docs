@@ -109,5 +109,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Docusign with Azure Active Directory](active-directory-saas-docusign-tutorial.md)
-* [How to configure user provisioning with Docusign](active-directory-saas-docusign-user-provisioning-tutorial.md)
+* [How to integrate Docusign with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-docusign-tutorial)
+* [How to configure user provisioning with Docusign](https://docs.microsoft.com/azure/active-directory/active-directory-saas-docusign-provisioning-tutorial)
