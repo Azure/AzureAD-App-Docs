@@ -33,7 +33,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     b. In the **Logout URL** textbox, enter **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%.
    
-    c. In the **Change Password URL** textbox, paste **Change Password URL** which you have copied from Azure portal.
+    c. In the **Change Password URL** textbox, enter **Change Password URL%metadata:changePasswordUrl%**.
        
     d. Open your [base-64 encoded certificate](%metadata:certificateDownloadBase64Url%) downloaded from Azure portal in notepad, copy the content of it into your clipboard, and then paste it to the **PublicKey** textbox.
    
@@ -50,6 +50,10 @@ To test the steps in this tutorial, you should follow these recommendations:
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+
+* **Azure AD Change Password URL** : %metadata:changePasswordUrl% 
+
+
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 

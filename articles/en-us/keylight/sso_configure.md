@@ -57,7 +57,8 @@ To test the steps in this tutorial, you should follow these recommendations:
      * In the Email attribute textbox, type **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress**.
      * In the **First name attribute** textbox, type **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname**.
      * In the **Last name attribute** textbox, type **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname**.
-    9. Click **Save**.
+     
+3. Click **Save**.
 
 
 ## Quick Reference

@@ -49,6 +49,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Jive with Azure Active Directory](active-directory-saas-jive-tutorial.md)
-* [How to configure user provisioning with Jive](active-directory-saas-jive-user-provisioning-tutorial.md)
+* [How to integrate Jive with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-jive-tutorial)
+* [How to configure user provisioning with Jive](https://docs.microsoft.com/azure/active-directory/active-directory-saas-jive-provisioning-tutorial)
 

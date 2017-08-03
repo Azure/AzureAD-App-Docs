@@ -3,7 +3,7 @@
 To configure Azure AD integration with Humanity, you need the following items:
 
 - An Azure AD subscription
-- A Humanity single-sign on enabled subscription
+- A Humanity single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -19,15 +19,15 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the menu on the top, click **Admin**.
    
-    ![Admin](./media/IC786619.png "Admin")
+    ![Admin](./media/ic786619.png "Admin")
 
 3. Under **Integration**, click **Single Sign-On**.
    
-    ![Single Sign-On](./media/IC786620.png "Single Sign-On")
+    ![Single Sign-On](./media/ic786620.png "Single Sign-On")
 
 4. In the **Single Sign-On** section, perform the following steps:
    
-    ![Single Sign-On](./media/IC786905.png "Single Sign-On")
+    ![Single Sign-On](./media/ic786905.png "Single Sign-On")
    
     a. Select **SAML Enabled**.
 
@@ -37,8 +37,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     d. Paste the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value into the **Remote Logout URL** textbox.
    
-    e. Open your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
- in notepad, copy the content of it into your clipboard, and then paste it to the **X.509 Certificate** textbox.
+    e. Open your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** in notepad, copy the content of it into your clipboard, and then paste it to the **X.509 Certificate** textbox.
 
 5. Click **Save Settings**.
 

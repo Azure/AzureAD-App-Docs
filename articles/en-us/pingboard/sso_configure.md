@@ -42,5 +42,5 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Pinboard with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-litmos-tutorial)
+* [How to integrate Pinboard with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-pingboard-tutorial)
 

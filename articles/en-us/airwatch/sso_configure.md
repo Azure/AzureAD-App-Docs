@@ -58,11 +58,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 8. Click the **User** tab again.
     
-    ![User](./media/ic791926.png "User")
+    ![User](./media/IC791926.png "User")
 
 9. In the **Attribute** section, perform the following steps:
     
-    ![Attribute](./media/ic791927.png "Attribute")
+    ![Attribute](./media/IC791927.png "Attribute")
 
     a. In the **Object Identifier** textbox, type **http://schemas.microsoft.com/identity/claims/objectidentifier**.
 

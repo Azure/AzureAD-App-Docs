@@ -29,13 +29,13 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     ![Current Integration](./media/ic775992.png "Current Integration")
 
-    a. In **IdP Entity ID** textbox, paste the value of **Azure AD SAML Entity ID** : %metadata:IssuerUri%** which you have copied from Azure portal.
+    a. In **IdP Entity ID** textbox, enter **Azure AD SAML Entity ID** : %metadata:IssuerUri%**.
 
-    b. In **Log On URL** textbox, paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%** which you have copied from Azure portal .
+    b. In **Log On URL** textbox, enter **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%**.
 
-    c. In **Log Out URL** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%' which you have copied from Azure portal.
+    c. In **Log Out URL** textbox, enter **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%.
 
-    d. In **Change Password Link** textbox, paste the value of **Azure AD Change Password URL** : %changePasswordUrl% which you have copied from Azure portal. 
+    d. In **Change Password Link** textbox, enter **Change Password URL:** %metadata:changePasswordUrl%. 
 
     e. In **Certificate Fingerprint** textbox, paste the **Thumbprint** value of [certificate](%metadata:CertificateDownloadRawUrl%) which you have copied from Azure portal.      
         
@@ -53,7 +53,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
-* **Azure AD Change Password URL** : %changePasswordUrl%
+* **Azure AD Change Password URL** : %metadata:changePasswordUrl%
 
 
 * **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**

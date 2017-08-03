@@ -26,9 +26,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 	![Instant Login](./media/ic798985.png "Instant Login")
 	
 	a. Type the **Login URL**.
-	
-	>**Note:**
-	>The **Login URL** is a custom value. You can get the actual value from your [Clever Client support team](https://clever.com/about/contact/).
+
+	> **Note:**
+	> The **Login URL** is a custom value. You can get the actual value from your [Clever Client support team](https://clever.com/about/contact/).
 
 	b. As **Identity System**, select **ADFS**.
 

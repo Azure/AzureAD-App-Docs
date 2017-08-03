@@ -17,7 +17,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
  To configure single sign-on on **Birst Agile Business Analytics** side, you need to send the **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [Birst Agile Business Analytics support team](mailto:info@birst.com). 
 
-   > [!NOTE]
+   > **Note:**
    > Mention to Birst team that this integration needs SHA256 Algorithm (SHA1 will not be supported) so that they can set the SSO on the appropriate server like **app2101** etc.
 
 ## Quick Reference
