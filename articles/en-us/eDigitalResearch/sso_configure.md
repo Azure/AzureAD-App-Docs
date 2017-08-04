@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring eDigitalResearch for single sign-on
 
-To configure single sign-on on **eDigitalResearch** side, you need to send the **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and  **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% to [eDigitalResearch support team](http://www.maruedr.com/contact). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **eDigitalResearch** side, you need to send the downloaded **[Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and  **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% to [eDigitalResearch support team](http://www.maruedr.com/contact). They set this setting to have the SAML SSO connection set properly on both sides.
 
 ## Quick Reference
 
