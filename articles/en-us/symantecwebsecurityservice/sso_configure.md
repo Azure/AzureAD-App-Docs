@@ -25,4 +25,4 @@ To configure single sign-on on **Symantec Web Security Service (WSS)** side, you
 
 ## Additional Resources
 
-* [How to integrate Symantec Web Security Service (WSS) with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-symantecwebsecurityservice(wss)-tutorial)
+* [How to integrate Symantec Web Security Service (WSS) with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-symantec-tutorial)
