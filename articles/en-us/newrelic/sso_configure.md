@@ -11,7 +11,7 @@ To configure Azure AD integration with New Relic, you need the following items:
 To test the steps in this tutorial, you should follow these recommendations:
 
 - Do not use your production environment, unless it is necessary.
-- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- If you don't have an Azure AD trial environment, you can [get a one-month trial](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Configuring New Relic for single sign-on
 
@@ -29,13 +29,13 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     ![SAML](./media/ic797038.png "SAML")
    
-    a. Click **Choose File** to upload your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**.
+   a. Click **Choose File** to upload your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**.
 
-    b. In the **Remote login URL** textbox,  paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, which you have copied from Azure portal.
+   b. In the **Remote login URL** textbox,  paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, which you have copied from Azure portal.
    
-    c. In the **Logout landing URL** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, which you have copied from Azure portal.
+   c. In the **Logout landing URL** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, which you have copied from Azure portal.
 
-    d. Click **Save my changes**.
+   d. Click **Save my changes**.
 
 ## Quick Reference
 
