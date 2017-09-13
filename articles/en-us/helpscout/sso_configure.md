@@ -12,7 +12,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Help Scout for single sign-on
 
-To configure single sign-on on the Help Scout side, upload the **[Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** downloaded from Azure portal to the Help Scout Company SAML SSO connection settings page along with the copied value of **“Azure AD Single Sign-On Service URL” : %metadata:singleSignOnServiceUrl%**. For more details on this please refer to the [Help Scout docs](http://docs.helpscout.net/article/906-enabling-sso-with-azure-ad-as-the-identity-provider) or contact [Help Scout support](help@helpscout.com). 
+To configure single sign-on on the Help Scout side, upload the **Azure AD Signing Certificate** and **Azure AD Single Sign-On Service URL** on the Help Scout SAML settings page (You can get these values from the **Quick Reference** section below). For more details on this please refer to the [Help Scout docs](http://docs.helpscout.net/article/906-enabling-sso-with-azure-ad-as-the-identity-provider) or contact [Help Scout support](help@helpscout.com). 
 
 ## Quick Reference
 
