@@ -49,9 +49,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     a. Click **Upload new SAML Certificate file**, and then upload the certificate, which you have **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** from Azure portal.
     
-	b. Paste **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value, which you have copied from the Azure portal into the **Remote Login URL** textbox.
+	b. in the **Remote Login URL** textbox, paste **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value, which you have copied from the Azure portal .
     
-	c. Paste **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value, which you have copied from the Azure portal into the **Log out URL** textbox.
+	c. In the **Log out URL** textbox, paste **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value which you have copied from the Azure portal.
     
 	d. Select a **Group** to assign users to when they are provisioned.
     
@@ -73,4 +73,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate ScreenSteps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory)
+* [How to integrate ScreenSteps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-screensteps-tutoria)
