@@ -1,9 +1,9 @@
 ## Prerequisites
 
-To configure Azure AD integration with Canvas LMS, you need the following items:
+To configure Azure AD integration with Canvas Lms, you need the following items:
 
 - An Azure AD subscription
-- A Canvas LMS single-sign on enabled subscription
+- A Canvas Lms single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -11,9 +11,9 @@ To configure Azure AD integration with Canvas LMS, you need the following items:
 To test the steps in this tutorial, you should follow these recommendations:
 
 - Do not use your production environment, unless it is necessary.
-- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- If you don't have an Azure AD trial environment, you can [get a one-month trial](https://azure.microsoft.com/pricing/free-trial/).
 
-### Configuring Canvas LMS for single sign-on
+### Configuring Canvas Lms for single sign-on
 
 1. In a different web browser window, log in to your Canvas company site as an administrator.
 
@@ -35,17 +35,21 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     c. Paste **Sign-Out URL** into the **Log Out URL** textbox.
 
-    d. Copy the **Thumbprint** value from the exported certificate, and then paste it into the **Certificate Fingerprint** textbox.      
+    d. In the Azure portal, on the **Configure single sign-on at Canvas** dialog page, copy the **Change Password URL** value, and then paste it into the **Change Password Link** textbox.
+
+    e. Copy the **Thumbprint** value from the exported certificate, and then paste it into the **Certificate Fingerprint** textbox.      
       >[!TIP]
       >For more information, see [How to retrieve a certificate's thumbprint value](http://youtu.be/YKQF266SAxI) 
       
-    e. From the **Login Attribute** list, select **NameID**.
+    f. From the **Login Attribute** list, select **NameID**.
 
-    f. From the **Identifier Format** list, select **emailAddress**.
+    g. From the **Identifier Format** list, select **emailAddress**.
 
-    g. Click **Save Authentication Settings**.
+    h. Click **Save Authentication Settings**.
+
+## Quick Reference
+
 
 ## Additional Resources
 
-* [How to integrate Canvas LMS with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-canvas-lms-tutorial)
-
+* [How to integrate Canvas Lms with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-canvas-lms-tutorial)
