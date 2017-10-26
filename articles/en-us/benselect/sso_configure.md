@@ -17,7 +17,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 To configure single sign-on on **BenSelect** side, you need to send the downloaded **Certificate(Raw)** and **Sign-Out URL**, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **SAML Single Sign-On Service URL** to [BenSelect support team](mailto:support@selerix.com).
 
-   >[!NOTE]
+   > **Note:**
    >You need to mention that this integration requires the SHA256 algorithm (SHA1 is not supported) to set the SSO on the appropriate server like app2101 etc. 
 
 ## Quick Reference

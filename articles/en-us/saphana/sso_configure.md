@@ -55,7 +55,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     ![Trust Management](./media/ic790802.png "Trust Management")
    
-    >[!NOTE]
+    > **Note:**
     >To manage the list of trusted identity providers, you need to have chosen the Custom configuration type in the Local Service Provider section. For Default configuration type, you have a non-editable and implicit trust to the SAP ID Service. For None, you don't have any trust settings.
     > 
     > 
@@ -64,7 +64,7 @@ To test the steps in this tutorial, you should follow these recommendations:
     
     ![Trust Management](./media/ic793932.png "Trust Management")
     
-    >[!NOTE]
+    > **Note:**
     >After uploading the metadata file, the values for **Single Sign-on URL**, **Single Logout URL**, and **Signing Certificate** are populated automatically.
     > 
      

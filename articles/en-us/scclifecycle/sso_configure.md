@@ -17,7 +17,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 To configure single sign-on on **SCC LifeCycle** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** to [SCC LifeCycle support team](mailto:lifecycle.support@scc.com). They set this setting to have the SAML SSO connection set properly on both sides.
 
-> [!NOTE]
+> **Note:**
 > Single sign-on has to be enabled by the SCC LifeCycle support team.
 
 ## Quick Reference

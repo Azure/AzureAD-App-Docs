@@ -39,7 +39,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 	
 	a. Copy the content of the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** and paste it into the **identity configuration** field.
 
-	> [!NOTE]
+	> **Note:**
 	>To copy the content of downloaded **Metadata XML** Use **Notepad++** or proper **XML Editor**. 
 
 	b. Click **Validate**.
