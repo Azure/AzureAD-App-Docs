@@ -82,7 +82,7 @@ To test the steps in this tutorial, you should follow these recommendations:
     | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname` |lastname |
     | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |email |
    
-     >[!NOTE]
+     **Note:**
      >The configuration of the Attributes depends on how the application(s) on SCP are developed, that is, which attribute(s) they expect in the SAML response and under which name (Principal Attribute) they access this attribute in the code.
      > 
     
