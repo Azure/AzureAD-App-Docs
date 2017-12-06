@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring IMAGE WORKS for single sign-on
 
-To configure single sign-on on **IMAGE WORKS** side, you need to send the downloaded **Metadata XML**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [IMAGE WORKS support team](mailto:riki.satou@fujifilm.com). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **IMAGE WORKS** side, you need to send the downloaded **Metadata XML**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [IMAGE WORKS support team](mailto:iw-sd-support@fujifilm.com). They set this setting to have the SAML SSO connection set properly on both sides.
 
 ## Quick Reference
 
