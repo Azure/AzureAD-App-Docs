@@ -17,8 +17,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. Sign-on to your SilkRoad company site as administrator. 
  
-    >[!NOTE] 
-    > To obtain access to the SilkRoad Life Suite Authentication application for configuring federation with Microsoft Azure AD, please contact SilkRoad Support or your SilkRoad Services representative.
+	>[!NOTE] 
+	> To obtain access to the SilkRoad Life Suite Authentication application for configuring federation with Microsoft Azure AD, please contact SilkRoad Support or your SilkRoad Services representative.
 
 2. Go to **Service Provider**, and then click **Federation Details**. 
    
@@ -82,11 +82,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 <!--Image references-->
 
-[10]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_06.png
-[11]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_07.png
-[12]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_08.png
-[13]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_09.png
-[14]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_10.png
-[15]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_11.png
-[16]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_12.png
-[17]: ./media/active-directory-saas-silkroad-life-suite-tutorial/tutorial_silkroad_13.png
+[10]: ./media/tutorial_silkroad_06.png
+[11]: ./media/tutorial_silkroad_07.png
+[12]: ./media/tutorial_silkroad_08.png
+[13]: ./media/tutorial_silkroad_09.png
+[14]: ./media/tutorial_silkroad_10.png
+[15]: ./media/tutorial_silkroad_11.png
+[16]: ./media/tutorial_silkroad_12.png
+[17]: ./media/tutorial_silkroad_13.png
