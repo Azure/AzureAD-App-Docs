@@ -17,7 +17,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. Sign-on to your SilkRoad company site as administrator. 
  
-	>[!NOTE] 
+	> **Note:**
 	> To obtain access to the SilkRoad Life Suite Authentication application for configuring federation with Microsoft Azure AD, please contact SilkRoad Support or your SilkRoad Services representative.
 
 2. Go to **Service Provider**, and then click **Federation Details**. 

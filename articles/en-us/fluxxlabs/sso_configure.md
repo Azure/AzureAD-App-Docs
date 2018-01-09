@@ -44,7 +44,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	h. Click **Save**.
 
-	> [!NOTE]
+	
+	> **Note:**
 	> Once the content saved, the field will appear blank for security, but the value has been saved in the configuration.
 
 ## Quick Reference
