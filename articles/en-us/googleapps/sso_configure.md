@@ -64,7 +64,7 @@ f. Click **Save Changes**.
 
 * **Azure AD Single Sign-On Service URL**: %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL**: %metadata:singleSignOutServiceUrl%
+* **Azure AD Sign Out URL**: %metadata:singleSignOnServiceUrl%
 
 * **[Download Azure AD Signing Certificate](%metadata:CertificateDownloadRawUrl%)**
 
