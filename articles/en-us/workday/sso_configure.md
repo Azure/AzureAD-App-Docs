@@ -119,7 +119,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleLogoutServiceUrl%
+* **Azure AD Sign Out URL** : %metadata:singleSignOnServiceUrl%
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
