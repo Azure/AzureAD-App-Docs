@@ -37,7 +37,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     b. In the **Login Redirect URL** textbox and the **Mobile Redirect URL** textbox, type the **Sign-on URL** you have entered on the **Workday Domain and URLs** section of the Azure portal.
    
-    c. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleLogoutService%, and then paste it into the **Logout Redirect URL** textbox.
+    c. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleLogoutServiceUrl%, and then paste it into the **Logout Redirect URL** textbox.
    
     d.  In **Environment** textbox, type the environment name.  
 
@@ -64,7 +64,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c. Select **Enable Workday Initiated Logout**.
    
-    d. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleLogoutService% value, and then paste it into the **Logout Request URL** textbox.
+    d. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleLogoutServiceUrl% value, and then paste it into the **Logout Request URL** textbox.
 
     e. Click **Identity Provider Public Key Certificate**, and then click **Create**. 
 
@@ -119,7 +119,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleLogoutService%
+* **Azure AD Sign Out URL** : %metadata:singleLogoutServiceUrl%
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
