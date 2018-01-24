@@ -57,7 +57,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     a. Select **Yes** as **Support SP-initiated Global Logout**.
    
-    b. In, the **Global Logout Service URL (LogoutRequest destination)** textbox put the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% from Azure AD application configuration wizard.
+    b. In, the **Global Logout Service URL (LogoutRequest destination)** textbox put the value of **Azure AD Sign Out URL** : %metadata:singleSignOnServiceUrl% from Azure AD application configuration wizard.
    
     c. Select **No** as **Require sp must encrypt all NameID element**.
    
@@ -83,7 +83,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+* **Azure AD Sign Out URL** : %metadata:singleSignOnServiceUrl%
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
