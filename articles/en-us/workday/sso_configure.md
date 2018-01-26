@@ -19,11 +19,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 2. In the **Search box** search with the name **Edit Tenant Setup – Security** on the top left side of the home page.
    
-    ![Edit Tenant Security](./media/IC782925.png "Edit Tenant Security")
+    ![Edit Tenant Security](./media/ic782925.png "Edit Tenant Security")
 
 3. In the **Redirection URLs** section, perform the following steps:
    
-    ![Redirection URLs](./media/IC7829581.png "Redirection URLs")
+    ![Redirection URLs](./media/ic7829581.png "Redirection URLs")
    
     a. Click **Add Row**.
    
@@ -33,14 +33,13 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     d. In **Used for Environments** textbox, select the environment name.  
 
-    >[!NOTE]
-    > The value of the Environment attribute is tied to the value of the tenant URL:  
-    >-If the domain name of the Workday tenant URL starts with impl for example: *https://impl.workday.com/\<tenant\>/login-saml2.htmld*), the **Environment** attribute must be set to Implementation.  
-    >-If the domain name starts with something else, you need to contact [Workday Client support team](https://www.workday.com/en-us/partners-services/services/support.html) to get the matching **Environment** value.
+     >**Note:**
+     > The value of the Environment attribute is tied to the value of the tenant URL:  >-If the domain name of the Workday tenant URL starts with impl for example: *https://impl.workday.com/\<tenant\>/login-saml2.htmld*), the **Environment** attribute must be set to Implementation.  
+     >-If the domain name starts with something else, you need to contact [Workday Client support team](https://www.workday.com/en-us/partners-services/services/support.html) to get the matching **Environment** value.
 
 4. In the **SAML Setup** section, perform the following steps:
    
-    ![SAML Setup](./media/IC782926.png "SAML Setup")
+    ![SAML Setup](./media/ic782926.png "SAML Setup")
    
     a.  Select **Enable SAML Authentication**.
    
@@ -48,31 +47,33 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 5. In the **SAML Identity Providers** section, perform the following steps:
    
-    ![SAML Identity Providers](./media/IC7829271.png "SAML Identity Providers")
+    ![SAML Identity Providers](./media/ic7829271.png "SAML Identity Providers")
    
     a. In the **Identity Provider Name** textbox, type a provider name (for example: *SPInitiatedSSO*).
    
     b. In the Azure portal, on the **Configure sign-on** window, copy the **SAML Entity ID** value, and then paste it into the **Issuer** textbox.
+
+    ![SAML Identity Providers](./media/ic7829271(1).png "SAML Identity Providers")
    
     c. Select **Enable Workday Initiated Logout**.
    
-    d. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value, and then paste it into the **Logout Response URL** textbox.
+    d. In the Azure portal, on the **Configure sign-on** window, copy the **Sign-Out URL** value, and then paste it into the **Logout Response URL** textbox.
 
-	e. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value, and then paste it into the **IdP SSO Service URL** textbox.
+	e. In the Azure portal, on the **Configure sign-on** window, copy the **SAML Single Sign-On Service URL** value, and then paste it into the **IdP SSO Service URL** textbox.
 
 	f. In **Used for Environments** textbox, select the environment name.
 
     g. Click **Identity Provider Public Key Certificate**, and then click **Create**. 
 
-    ![Create](./media/IC782928.png "Create")
+    ![Create](./media/ic782928.png "Create")
 
-    h. Click **Create x509 Public Key**. 
+    h. Click **Create x509 Public Key**.  
 
-    ![Create](./media/IC782929.png "Create")
+    ![Create](./media/ic782929.png "Create")
 
 6. In the **View x509 Public Key** section, perform the following steps: 
    
-    ![View x509 Public Key](./media/IC782930.png "View x509 Public Key") 
+    ![View x509 Public Key](./media/ic782930.png "View x509 Public Key") 
    
     a. In the **Name** textbox, type a name for your certificate (for example: *PPE\_SP*).
    
@@ -80,7 +81,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c.  In the **Valid To** textbox, type the valid to attribute value of your certificate.
    
-    > [!NOTE]
+    >**Note:**
     > You can get the valid from date and the valid to date from the downloaded certificate by double-clicking it.  The dates are listed under the **Details** tab.
     > 
     >
@@ -105,7 +106,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     d. Click **OK**. 
    
-    ![OK](./media/IC782933.png "OK")
+    ![OK](./media/ic782933.png "OK")
 
 ## Quick Reference
 
@@ -121,4 +122,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Workday with Azure Active Directory](https://docs.microsoft.com/azure/active-directory)
+* [How to integrate Workday with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-workday-tutorial)
