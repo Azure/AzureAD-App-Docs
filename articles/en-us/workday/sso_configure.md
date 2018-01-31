@@ -53,7 +53,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     b. In the Azure portal, on the **Configure sign-on** window, copy the **SAML Entity ID** value, and then paste it into the **Issuer** textbox.
 
-    ![SAML Identity Providers](./media/ic7829271(1).png "SAML Identity Providers")
+    ![SAML Identity Providers](./media/ic7829277.png "saml identity providers")
    
     c. Select **Enable Workday Initiated Logout**.
    
@@ -94,7 +94,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 7. Perform the following steps: 
    
-    ![SSO configuration](./media/WorkdaySSOConfiguratio.png "SSO configuration")
+    ![SSO configuration](./media/workdayssoconfigurationn.png "sso configuration")
    
     a.  In the **Service Provider ID** textbox, type **http://www.workday.com**.
    
@@ -102,7 +102,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c. As **Authentication Request Signature Method**, select **SHA256**. 
    
-    ![Authentication Request Signature Method](./media/WorkdaySSOConfiguration.png "Authentication Request Signature Method") 
+    ![Authentication Request Signature Method](./media/workdayssoconfiguration.png "authentication request signature method") 
    
     d. Click **OK**. 
    
