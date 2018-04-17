@@ -15,13 +15,14 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Fluxx Labs for single sign-on
 
-1. In a different web browser window, sign-on to your Fluxx Labs company site as administrator.
+1. In a different web browser window, sign on to your Fluxx Labs company site as administrator.
 
-2. On the top right corner of the page, Click on **Settings icon** and then **Admin** .
+2. Select **Admin** below the **Settings** section.
 
 	![Fluxx Labs Configuration](./media/config1.png)
 
-3. In the Admin Panel, Select **Plug Ins** > **Integrations** and then select **SAMLSSO(Enabled)**
+3. In the Admin Panel, Select **Plug-ins** > **Integrations** and then select **SAML SSO-(Disabled)**
+
 	![Fluxx Labs Configuration](./media/config2.png)
 	
 4. In the attribute section, perform the following steps:
@@ -34,18 +35,17 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	c. In the **Callback Path** textbox, type **/auth/saml/callback**.
 
-	d. In the **Assertion Consumer Service Url** textbox, paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% which you have copied from the Azure portal.
+	d. In the **Assertion Consumer Service Url(Single Sign-On URL)** textbox, paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, which you have copied from the Azure portal.
 
-	e. In the **Issuer** textbox, paste the value of **Azure AD SAML Entity ID** : %metadata:IssuerUri% which you have copied from the Azure portal.
+	e. In the **Audience(SP Entity ID)** textbox, paste the value of **Azure AD SAML Entity ID** : %metadata:IssuerUri%, which you have copied from the Azure portal.
 
-	f. Open your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** in notepad, copy the content of it into your clipboard, and then paste it to the **IDP Cert** textbox.
+	f. Open your **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** encoded certificate in notepad, copy the content of it into your clipboard, and then paste it to the **Identity Provider Certificate** textbox.
 
-	g. From the Optional information, copy the NameIDFormat, which should appear as: `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+	g. In **Name identifier Format** textbox, enter the value `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`.
 
 	h. Click **Save**.
 
-	
-	> **Note:**
+	> [!NOTE]
 	> Once the content saved, the field will appear blank for security, but the value has been saved in the configuration.
 
 ## Quick Reference
