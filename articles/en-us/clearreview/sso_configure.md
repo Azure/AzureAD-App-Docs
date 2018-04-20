@@ -15,13 +15,39 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Clear Review for single sign-on
 
-To configure single sign-on on **Clear Review** side, you need to send the downloaded **Metadata XML** and **Azure AD SAML Entity ID** : %metadata:IssuerUri% to [Clear Review support team](https://clearreview.com/contact/). They set this setting to have the SAML SSO connection set properly on both sides.
+1. To configure single sign-on on **Clear Review** side, open the **Clear Review** portal with admin credentials.
+
+2. Select **Admin** from the left navigation.
+
+	![Configure Single Sign-On Save button](./media/tutorial_clearreview_app_admin1.png)
+
+3. Select **Change** at the bottom of the page.
+
+	![Configure Single Sign-On Save button](./media/tutorial_clearreview_app_admin2.png)
+
+4. Perform following steps on **Single Sign-On Settings** page
+
+	![Configure Single Sign-On Save button](./media/tutorial_clearreview_app_admin3.png)
+
+	a. In the **Issuer URL** textbox, paste the value of **Azure AD SAML Entity ID** : %metadata:IssuerUri% which you have copied from Azure portal.
+
+	b. In the **SAML Endpoint** textbox, paste the value of **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% which you have copied from Azure portal.
+
+	c. In the **SLO Endpoint** textbox, paste the value of **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% which you have copied from Azure portal.
+	
+	d. Open the **[Downloaded Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)** in notepad and paste the content in the **X.509 Certificate** textbox.
+
+5. Click **Save**.
 
 ## Quick Reference
 
+* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
+
+* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
-* **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
+* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 
 ## Additional Resources
 
