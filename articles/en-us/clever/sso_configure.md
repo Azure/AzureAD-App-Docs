@@ -21,6 +21,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Instant Login](./media/ic798984.png "Instant Login")
 
+	> [!NOTE]
+	> Before you can Test single sign-on, You have to contact [Clever Client support team](https://clever.com/about/contact/) to enable Office 365 SSO in the back end.
+
 3. On the **Instant Login** page, perform the following steps:
 
 	![Instant Login](./media/ic798985.png "Instant Login")
@@ -32,7 +35,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	b. As **Identity System**, select **ADFS**.
 
-	c. Click **Save**.
+	c. In the **Metadata URL** textbox, paste the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** value which you have copied from the Azure portal.
+
+	d. Click **Save**.
 
 ## Quick Reference
 
