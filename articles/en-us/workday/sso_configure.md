@@ -29,13 +29,14 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     b. In the **Login Redirect URL** textbox and the **Mobile Redirect URL** textbox, type the **Sign-on URL** you have entered on the **Workday Domain and URLs** section of the Azure portal.
    
-    c. In the Azure portal, on the **Configure sign-on** window, copy the **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, and then paste it into the **Logout Redirect URL** textbox.
+    c. In the Azure portal, on the **Configure sign-on** window, copy the **Sign-Out URL**, and then paste it into the **Logout Redirect URL** textbox.
 
     d. In **Used for Environments** textbox, select the environment name.  
 
-     >**Note:**
-     > The value of the Environment attribute is tied to the value of the tenant URL:  >-If the domain name of the Workday tenant URL starts with impl for example: *https://impl.workday.com/\<tenant\>/login-saml2.htmld*), the **Environment** attribute must be set to Implementation.  
-     >-If the domain name starts with something else, you need to contact [Workday Client support team](https://www.workday.com/en-us/partners-services/services/support.html) to get the matching **Environment** value.
+    >[!NOTE]
+    > The value of the Environment attribute is tied to the value of the tenant URL:  
+    >-If the domain name of the Workday tenant URL starts with impl for example: *https://impl.workday.com/\<tenant\>/login-saml2.htmld*), the **Environment** attribute must be set to Implementation.  
+    >-If the domain name starts with something else, you need to contact [Workday Client support team](https://www.workday.com/en-us/partners-services/services/support.html) to get the matching **Environment** value.
 
 4. In the **SAML Setup** section, perform the following steps:
    
@@ -53,9 +54,9 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     b. In the Azure portal, on the **Configure sign-on** window, copy the **SAML Entity ID** value, and then paste it into the **Issuer** textbox.
 
-    ![SAML Identity Providers](./media/ic7829277.png "saml identity providers")
+    ![SAML Identity Providers](./media/ic7829272.png "SAML Identity Providers")
    
-    c. Select **Enable Workday Initiated Logout**.
+    c. Select **Enable idp Initiated Logout**.
    
     d. In the Azure portal, on the **Configure sign-on** window, copy the **Sign-Out URL** value, and then paste it into the **Logout Response URL** textbox.
 
@@ -67,7 +68,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     ![Create](./media/ic782928.png "Create")
 
-    h. Click **Create x509 Public Key**.  
+    h. Click **Create x509 Public Key**. 
 
     ![Create](./media/ic782929.png "Create")
 
@@ -81,7 +82,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c.  In the **Valid To** textbox, type the valid to attribute value of your certificate.
    
-    >**Note:**
+    > [!NOTE]
     > You can get the valid from date and the valid to date from the downloaded certificate by double-clicking it.  The dates are listed under the **Details** tab.
     > 
     >
@@ -94,7 +95,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 7. Perform the following steps: 
    
-    ![SSO configuration](./media/workdayssoconfigurationn.png "sso configuration")
+    ![SSO configuration](./media/WorkdaySSOConfiguratio.png "SSO configuration")
    
     a.  In the **Service Provider ID** textbox, type **http://www.workday.com**.
    
@@ -102,7 +103,7 @@ To test the steps in this tutorial, you should follow these recommendations:
    
     c. As **Authentication Request Signature Method**, select **SHA256**. 
    
-    ![Authentication Request Signature Method](./media/workdayssoconfiguration.png "authentication request signature method") 
+    ![Authentication Request Signature Method](./media/WorkdaySSOConfiguration.png "Authentication Request Signature Method") 
    
     d. Click **OK**. 
    
@@ -112,14 +113,12 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+* **Azure AD Sign Out URL** : %metadata:singleLogoutService%
 
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
-
-
 ## Additional Resources
 
-* [How to integrate Workday with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-workday-tutorial)
+* [How to integrate Workday with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-workday-tutorial)
