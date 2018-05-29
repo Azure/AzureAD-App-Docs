@@ -49,7 +49,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	j. In **Issuer** textbox, paste the value of **Identifier**, which you get from the support team.
 
-	> [!Note]
+	> **Note:**
 	> Contact [Riskware Client support team](mailto:support@pansoftware.com.au) to get these values
 
 	k. Select **Use POST** to pass SAML Request as a post parameter.

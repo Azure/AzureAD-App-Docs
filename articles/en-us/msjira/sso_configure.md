@@ -44,7 +44,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	d. In **SAML User ID Locations** select either **User ID is in the NameIdentifier element of the Subject statement** or **User ID is in an Attribute element**.  This ID has to be the JIRA user id. If the user id is not matched, then system will not allow users to log in.
 
-	> [!Note]
+	> **Note:**
 	> Default SAML User ID location is Name Identifier. You can change this to an attribute option and enter the appropriate attribute name.
 
 	e. If you select **User ID is in an Attribute element** option, then in **Attribute name** textbox type the name of the attribute where User Id is expected.
@@ -57,7 +57,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	i. Click **Save** button to save the settings.
 
-	> [!NOTE]
+	> **Note:**
 	> For more information about installation and troubleshooting, visit [MS JIRA SSO Connector Admin Guide](ms-confluence-jira-plugin-adminguide.md) and there is also [FAQ](ms-confluence-jira-plugin-faq.md) for your assistance
 
 ## Quick Reference
