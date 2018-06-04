@@ -47,7 +47,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Vidyard Configuration](./media/configure4.png)
 
-	> [!NOTE]
+	> **Note:**
 	> Once you have created an SSO profile, assign it to any group(s) for which users will require access through Azure. If the user does not exist within the group to which they were assigned, Vidyard will automatically create a user account and assign their role in real-time.
 
 6. Select your organization group, which is visible in the **Groups Available to Assign**.
@@ -58,7 +58,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Vidyard Configuration](./media/configure6.png)
 
-	> [!NOTE]
+	> **Note:**
 	> For more information, refer [this doc](https://knowledge.vidyard.com/saml-single-sign-on-authentication/saml-based-single-sign-on-sso-in-vidyard).
 
 ## Quick Reference

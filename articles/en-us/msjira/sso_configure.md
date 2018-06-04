@@ -33,7 +33,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Configure Single Sign-On](.\media\addon52.png)
 
-	> [!TIP]
+	> **TIP:**
 	> Ensure that there is only one certificate mapped against the app so that there is no error in resolving the metadata. If there are multiple certificates, upon resolving the metadata, admin gets an error.
 
 	a. In the **Metadata URL** textbox, paste **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** value which you have copied from the Azure portal and click the **Resolve** button. It reads the IdP metadata URL and populates all the fields information.

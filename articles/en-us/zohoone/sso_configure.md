@@ -49,7 +49,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	b. Click **Add**.
 
-	>[!Note]
+	> **Note:**
 	>After adding the domain follow [these](https://www.zoho.com/one/help/admin-guide/domain-verification.html) steps to verify your domain. Once the domain is verfified, use your domain name in **Sign-on URL** in **Zoho One Domain and URLs** section in Azure portal.
 
 ## Quick Reference
