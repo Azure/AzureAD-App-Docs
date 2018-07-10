@@ -1,9 +1,9 @@
 ## Prerequisites
 
-To configure Azure AD integration with ADP eTime, you need the following items:
+To configure Azure AD integration with ADP, you need the following items:
 
 - An Azure AD subscription
-- An ADP eTime single-sign on enabled subscription
+- An ADP single sign-on enabled subscription
 
 > **Note:**
 > To test the steps in this tutorial, we do not recommend using a production environment.
@@ -11,11 +11,11 @@ To configure Azure AD integration with ADP eTime, you need the following items:
 To test the steps in this tutorial, you should follow these recommendations:
 
 - Do not use your production environment, unless it is necessary.
-- If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
+- If you don't have an Azure AD trial environment, you can [get a one-month trial](https://azure.microsoft.com/pricing/free-trial/).
 
-### Configuring ADP eTime for single sign-on
+### Configuring ADP for single sign-on
 
- To configure single sign-on on **ADP eTime** side, you need to send the downloaded **Metadata XML** to [ADP eTime support](https://www.adp.com/contact-us/overview.aspx). They set this up to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **ADP** side, you need to upload the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** on the [ADP website](https://adpfedsso.adp.com/public/login/index.fcc).
 
 ## Quick Reference
 
@@ -23,4 +23,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate ADP eTime with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-adpetime-tutorial)
+* [How to integrate ADP with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/adpfederatedsso-tutorial)
