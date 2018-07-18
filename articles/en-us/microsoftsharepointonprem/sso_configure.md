@@ -26,7 +26,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	```
 	$realm = "<Identifier value from the SharePoint on-premises Domain and URLs section in the Azure portal>"
-	$wsfedurl="<**Azure AD Single Sign-On Service URL** : %metadata:wsFederationSignInUrl% value which you have copied from the Azure portal>"
+	$wsfedurl="<**Azure AD Single Sign-On Service URL** : %wsFederationSignInUrl% value which you have copied from the Azure portal>"
 	$filepath="<Full path to SAML signing certificate file which you have copied from the Azure portal>"
 	$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($filepath)
 	New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
@@ -53,7 +53,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:wsFederationSignInUrl%
+* **Azure AD Single Sign-On Service URL** : %wsFederationSignInUrl%
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
