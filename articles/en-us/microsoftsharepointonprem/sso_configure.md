@@ -21,12 +21,12 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	Sign into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Azure portal and run the following commands to configure a new trusted identity provider.
 
-	> **TIP:**
+	> **Tip**
 	> If you're new to using PowerShell or want to learn more about how PowerShell works, see [SharePoint PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/overview?view=sharepoint-ps). 
 
 	```
 	$realm = "<Identifier value from the SharePoint on-premises Domain and URLs section in the Azure portal>"
-	$wsfedurl="<**Azure AD Single Sign-On Service URL** : %wsFederationSignInUrl% value which you have copied from the Azure portal>"
+	$wsfedurl="<SAML single sign-on service URL value which you have copied from the Azure portal>"
 	$filepath="<Full path to SAML signing certificate file which you have copied from the Azure portal>"
 	$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($filepath)
 	New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
@@ -53,7 +53,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %wsFederationSignInUrl%
+* **Azure AD Single Sign-On Service URL** : %metadata:wsFederationSignInUrl%
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 

@@ -31,7 +31,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	a. Click on **Update IdP metadata** button next to **Status** option and paste the contents of **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** from the Azure portal in the specified textbox.
 
-	> [!Note]
+	> **Note:**
 	> You can also validate **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** through the **Metadata validator** tool as highlighted in screenshot above.
 
 	b. Click **Save**.

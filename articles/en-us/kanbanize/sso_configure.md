@@ -43,8 +43,9 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	e. In **Attribute name for First Name** textbox, enter this value `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname`
 
-	f. In **Attribute name for Last Name** textbox, enter this value `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname` 
-	> [!Note]
+	f. In **Attribute name for Last Name** textbox, enter this value `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname`
+ 
+	> **Note:**
 	> You can get these values by combining namespace and name values of the respective attribute from the User attributes section in Azure portal.
 
 	g. In Notepad, open the **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** from the Azure portal, copy its content (without the start and end markers), and then paste it into the **Idp X.509 Certificate** box.
