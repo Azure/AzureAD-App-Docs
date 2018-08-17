@@ -53,7 +53,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:wsFederationSignInUrl%
+* **Azure AD Single Sign-On Service URL** : https://login.microsoftonline.com/4f7437a6-3d76-4122-a907-624d965ba139/wsfed
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
