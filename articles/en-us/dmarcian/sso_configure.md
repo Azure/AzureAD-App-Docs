@@ -39,7 +39,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	* Under **Set up Login URL** section, copy the **Login URL** for your instance and paste it in **Sign-on URL** textbox in **dmarcian Domain and URLs section** on Azure portal.
 
-		> [!Note]
+		> **Note:**
 		> You can modify the **Login URL** according to your organisation.
 
 	* Click **Save**.
