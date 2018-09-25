@@ -25,7 +25,21 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Jamf Pro Configuration](./media/configure2.png)
 
-4. Scroll down upto **IDENTITY PROVIDER** under the **Single Sign-On** section and perform the following steps:
+4. On the **Single Sign-On** page perform the following steps:
+
+	![Jamf Pro single](./media/tutorial_jamfprosamlconnector_single.png)
+
+	a. Select **Jamf Pro Server** to enable Single Sign-On access.
+
+	b. By selecting **Allow bypass for all users** users will not be redirected to the Identity Provider login page for authentication, but can log in to Jamf Pro directly instead. When a user tries to access Jamf Pro via the Identity Provider, IdP-initiated SSO authentication and authorization occurs.
+
+	c. Select the **NameID** option for **USER MAPPING: SAML**. By default, this setting is set to **NameID** but you may define a custom attribute.
+
+	d. Select **Email** for **USER MAPPING: JAMF PRO**. Jamf Pro maps SAML attributes sent by the IdP in the following ways: by users and by groups. When a user tries to access Jamf Pro, by default Jamf Pro gets information about the user from the Identity Provider and matches it against Jamf Pro user accounts. If the incoming user account does not exist in Jamf Pro, then group name matching occurs.
+
+	e. Paste the value `http://schemas.microsoft.com/ws/2008/06/identity/claims/groups` in the **GROUP ATTRIBUTE NAME** textbox.
+
+5. On the same page scroll down upto **IDENTITY PROVIDER** under the **Single Sign-On** section and perform the following steps:
 
 	![Jamf Pro Configuration](./media/configure3.png)
 
@@ -35,17 +49,21 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	c. Select **Metadata URL** as a option from the **IDENTITY PROVIDER METADATA SOURCE** dropdown and in the following textbox, paste the **App Federation Metadata Url** value which you have copied from the Azure portal.
 
-	d. Copy the **Entity ID** vlaue and paste it into the **Identifier (Entity ID)** textbox in **Jamf Pro Domain and URLs** section on Azure portal.
+	d. Copy the **Entity ID** value and paste it into the **Identifier (Entity ID)** textbox in **Jamf Pro Domain and URLs** section on Azure portal.
 
 	> **Note:**
-	> Here `aadsso` is the subdomain part (which is for reference purpose). Use this value to complete the Sign-on URL and Reply URL in the **Jamf Pro Domain and URLs** section on Azure portal.
+	> Here blurred value is the subdomain part .Use this value to complete the Sign-on URL and Reply URL in the **Jamf Pro Domain and URLs** section on Azure portal.
 
 	e. Click **Save**.
 
 ## Quick Reference
 
+* **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
+
 * **[Download SAML Metadata file](%metadata:metadataDownloadUrl%)**
+
+
 
 ## Additional Resources
 
-* [How to integrate Jamf Pro SAML Connector with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-saas-jamfprosamlconnector-tutorial)
+* [How to integrate Jamf Pro SAML Connector with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/jamfprosamlconnector-tutorial)
