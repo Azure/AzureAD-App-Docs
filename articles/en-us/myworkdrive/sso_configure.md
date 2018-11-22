@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring MyWorkDrive for single sign-on
 
-To configure single sign-on on **MyWorkDrive** side, you need to send the **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% to [MyWorkDrive support team](mailto:support@myworkdrive.com). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on MyWorkDrive side, download the **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**, **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%, **Azure AD SAML Entity ID** : %metadata:IssuerUri%, and **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% and configure them manually on MyWorkDrive server or copy and paste the Azure **App Federation Metadata URL** into your MyWorkDrive Server Admin Panel SAML Azure AD configuration screen. For additional information contact [MyWorkDrive support team](mailto:support@myworkdrive.com).
 
 ## Quick Reference
 
@@ -26,7 +26,6 @@ To configure single sign-on on **MyWorkDrive** side, you need to send the **[Dow
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
-
 
 ## Additional Resources
 

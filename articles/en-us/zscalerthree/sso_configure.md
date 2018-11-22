@@ -37,7 +37,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![Single Sign-On](./media/ic800209.png "Single Sign-On")
 
-	a. Paste the **Login URL** : %metadata:singleSignOnServiceUrl% value, which you have copied from the Azure portal into the **URL of the SAML Portal to which users are sent for authentication** textbox.
+	a. Paste the **Login URL** value, which you have copied from the Azure portal into the **URL of the SAML Portal to which users are sent for authentication** textbox.
 
 	b. In the **Attribute containing Login Name** textbox, type **NameID**.
 
@@ -85,7 +85,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 6. Click **OK** to close the **Internet Options** dialog.
 
-
 ## Quick Reference
 
 * **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
@@ -95,8 +94,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 * **Azure AD SAML Entity ID** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
-
-
 
 ## Additional Resources
 
