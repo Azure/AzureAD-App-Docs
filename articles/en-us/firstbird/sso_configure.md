@@ -19,7 +19,7 @@ Once you have completed these steps, please send Firstbird the **[Downloaded SAM
 
 Firstbird will then store the configuration in the system accordingly and activate SSO for your account. After that, a member of the support staff will contact you to verify the configuration.
 
-> [!NOTE]
+> **Note:**
 > You need to have the SSO option included in your contract.
 
 ## Quick Reference

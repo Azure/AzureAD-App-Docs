@@ -33,7 +33,6 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	![The Next](./media/tutorial_cisco-umbrella_next.png)
 
-
 6. In the **Option A: Upload XML file**,  upload the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** from the Azure portal and after uploading metadata the below values get auto populated automatically then click **NEXT**.
 
 	![The choosefile ](./media/tutorial_cisco-umbrella_choosefile.png)
