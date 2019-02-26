@@ -39,7 +39,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	 * For **Upload Metadata**, click choose file and upload the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** from the Azure portal.
 
-	 > [!NOTE]
+	 > **Note:**
 	 > After uploading the metadata file, the remaining fields **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%, **Identity Provider Issuer, Upload Public Key** will populate automatically.
 
 	 * In the **Email** textbox, enter the value as `mail`.

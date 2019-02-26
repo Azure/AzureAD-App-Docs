@@ -23,7 +23,7 @@ To configure single sign-on on **Pexip** side, you need to send the **[Downloade
 
 * **Azure AD Logout URL** : %metadata:singleSignOutServiceUrl%
 
-* **Azure AD Azure AD Identifier** : %metadata:IssuerUri%
+* **Azure AD Identifier** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
