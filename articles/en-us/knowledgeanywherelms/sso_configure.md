@@ -35,13 +35,13 @@ To test the steps in this tutorial, you should follow these recommendations:
 
     a. Enter the IDP Name as per your organization. For ex:- `Azure`.
 
-    b. In the **IDP Entity ID** textbox, paste **Azure AD SAML Entity ID** : %metadata:IssuerUri% value which you have copied from Azure portal.
+    b. In the **IDP Entity ID** textbox, paste **Azure AD Identifier** : %metadata:IssuerUri% value which you have copied from Azure portal.
 
-    c. In the **IDP URL** textbox, paste **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl% value which you have copied from Azure portal.
+    c. In the **IDP URL** textbox, paste **Azure AD Login URL** : %metadata:singleSignOnServiceUrl% value which you have copied from Azure portal.
 
     d. Open the **[Downloaded Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)** from the Azure portal into notepad, copy the content of the certificate and paste it into **Certificate** textbox.
 
-    e. In the **Logout URL** textbox, paste **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl% value which you have copied from Azure portal.
+    e. In the **Logout URL** textbox, paste **Azure AD Logout URL** : %metadata:singleSignOutServiceUrl% value which you have copied from Azure portal.
 
     f. Select **Main Site** from the dropdown for the **Domain**.
 
@@ -53,11 +53,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
+* **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+* **Azure AD Logout URL** : %metadata:singleSignOutServiceUrl%
 
-* **Azure AD SAML Entity ID** : %metadata:IssuerUri%
+* **Azure AD Identifier** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 
