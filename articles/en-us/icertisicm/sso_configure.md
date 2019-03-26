@@ -19,7 +19,7 @@ To configure single sign-on on **Icertis Contract Management Platform** side, yo
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : `https://login.microsoftonline.com/_my_directory_id_/wsfed`
+* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
 
 * **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
 
