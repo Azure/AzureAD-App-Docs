@@ -35,7 +35,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 	e. In the **Enter New IP** textbox, type the IP Address.
 
-	>[!NOTE]
+	> **Note:**
 	> Contact [TAS support team](mailto:support@combtas.com) to get the IP Address.
 
 	f. Copy the **Single Sign On** url and paste it into the **identifier (Entity ID)** and **Sign on URL** textbox of **Basic SAML Configuration** in Azure portal. Please note that the url is case sensitive and must end with a slash (/).
