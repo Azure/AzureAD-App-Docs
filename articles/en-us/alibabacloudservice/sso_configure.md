@@ -25,4 +25,4 @@ To configure single sign-on on **Alibaba Cloud Service (Role-based SSO)** side, 
 
 ## Additional Resources
 
-* [How to integrate Alibaba Cloud Service (Role-based SSO) with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/alibaba-cloud-service-(role-based-sso)-tutorial)
+* [How to integrate Alibaba Cloud Service (Role-based SSO) with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/alibaba-cloud-service-role-based-sso-tutorial)
