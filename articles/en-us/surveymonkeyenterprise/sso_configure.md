@@ -19,7 +19,7 @@ To configure single sign-on on **SurveyMonkey Enterprise** side, you need to sen
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
+* **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%
 
 * **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 
