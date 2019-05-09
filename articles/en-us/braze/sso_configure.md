@@ -19,11 +19,11 @@ To configure single sign-on on **Braze** side, you need to send the **[Downloade
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
+* **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%
 
-* **Azure AD Sign Out URL** : %metadata:singleSignOutServiceUrl%
+* **Azure AD Logout URL** : %metadata:singleSignOutServiceUrl%
 
-* **Azure AD SAML Entity ID** : %metadata:IssuerUri%
+* **Azure AD Identifier** : %metadata:IssuerUri%
 
 * **[Download Azure AD Signing Certifcate (Base64 encoded)](%metadata:certificateDownloadBase64Url%)**
 

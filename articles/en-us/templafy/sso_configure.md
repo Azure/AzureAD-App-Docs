@@ -19,7 +19,7 @@ To configure single sign-on on **Templafy** side, you need to send the **App Fed
 
 ## Quick Reference
 
-* **Azure AD Single Sign-On Service URL** : %metadata:singleSignOnServiceUrl%
+* **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%
 
 * **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 
