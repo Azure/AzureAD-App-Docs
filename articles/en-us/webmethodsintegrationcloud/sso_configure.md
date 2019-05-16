@@ -15,11 +15,11 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring webMethods Integration Cloud for single sign-on
 
-To configure single sign-on on **webMethods Integration Cloud** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** and appropriate copied URLs from Azure portal to [webMethods Integration Cloud support team](https://empower.softwareag.com/). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **webMethods Integration Suite** side, you need to send the **[Downloaded SAML Metadata file](%metadata:metadataDownloadUrl%)** and appropriate copied URLs from Azure portal to [webMethods Integration Suite support team](https://empower.softwareag.com/). They set this setting to have the SAML SSO connection set properly on both sides.
 
 ## Quick Reference
 
-* **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%
+* **Login URL** : %metadata:singleSignOnServiceUrl%
 
 * **[Download Azure AD Signing Certifcate](%metadata:CertificateDownloadRawUrl%)**
 

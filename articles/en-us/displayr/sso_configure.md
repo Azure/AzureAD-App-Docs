@@ -15,27 +15,23 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Displayr for single sign-on
 
-1. On the **Displayr** page, click **Properties** in the left-side navigation pane, and copy the **Application ID** and save it on your computer for subsequent use.
+1. In a different web browser window, sign in to Displayr as an Administrator.
 
-	![image](./media/properties.png)
-
-2. In a different web browser window, sign in to Displayr as an Administrator.
-
-3. Click on **Settings** then navigate to **Account**.
+2. Click on **Settings** then navigate to **Account**.
 
 	![Configuration](./media/config01.png)
 
-4. Switch to **Settings** from the top menu and scroll down the page for clicking **Configure Single Sign On (SAML)**.
+3. Switch to **Settings** from the top menu and scroll down the page for clicking **Configure Single Sign On (SAML)**.
 
 	![Configuration](./media/config02.png)
 
-5. On the **Single Sign On (SAML)** page, perform the following steps:
+4. On the **Single Sign On (SAML)** page, perform the following steps:
 
 	![Configuration](./media/config03.png)
 
 	a. Check the **Enable Single Sign On (SAML)** box.
 
-	b. In the **Issuer** text box, paste the value of **Application ID**, which you have copied from the **Properties** tab of Azure portal.
+	b. Copy the actual **Identifier** value from the **Basic SAML Configuration** section of Azure AD and paste it into the **Issuer** text box.
 
 	c. In the **Login URL** text box, paste the value of **Azure AD Login URL** : %metadata:singleSignOnServiceUrl%, which you have copied from Azure portal.
 
