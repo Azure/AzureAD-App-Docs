@@ -11,7 +11,7 @@ To configure Azure AD integration with webMethods Integration Cloud, you need th
 To test the steps in this tutorial, you should follow these recommendations:
 
 - Do not use your production environment, unless it is necessary.
-- If you don't have an Azure AD trial environment, you can [get a one-month trial](https://azure.microsoft.com/pricing/free-trial/).
+- If you don't have an Azure AD trial environment, you can get a [free account](https://azure.microsoft.com/free/).
 
 ### Configuring webMethods Integration Cloud for single sign-on
 
