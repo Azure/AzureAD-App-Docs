@@ -25,8 +25,8 @@ You will find those information on the **Set up Single Sign-On with SAML** page:
 
 You are now ready to configure SSO on Abstract:
 
->[!Note]
->You will need to authenticate with an organization Admin account to access the SSO settings on Abstract.
+> **Note:**
+> You will need to authenticate with an organization Admin account to access the SSO settings on Abstract.
 
 1. Open the [Abstract web app](https://app.abstract.com/).
 2. Go to the **Permissions** page in the left side bar.
@@ -34,8 +34,8 @@ You are now ready to configure SSO on Abstract:
 4. Enter any manual exceptions you might have. Emails listed in the manual exceptions section will bypass SSO and be able to log in with email and password. 
 5. Click **Save Changes**.
 
->[!Note] 
->You’ll need to use primary email addresses in the manual exceptions list. SSO activation will fail if the email you list is a user’s secondary email. If that happens, you’ll see an error message with the primary email for the failing account. Add that primary email to the manual exceptions list after you’ve verified you know the user.
+> **Note:** 
+> You’ll need to use primary email addresses in the manual exceptions list. SSO activation will fail if the email you list is a user’s secondary email. If that happens, you’ll see an error message with the primary email for the failing account. Add that primary email to the manual exceptions list after you’ve verified you know the user.
 
 ## Quick Reference
 
