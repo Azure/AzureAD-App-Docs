@@ -53,4 +53,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Civic Platform with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/civicplatform-tutorial)
+* [How to integrate Civic Platform with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/civic-platform-tutorial)

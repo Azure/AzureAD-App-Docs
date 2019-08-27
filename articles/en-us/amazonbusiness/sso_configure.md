@@ -83,4 +83,4 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ## Additional Resources
 
-* [How to integrate Amazon Business with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/amazonbusiness-tutorial)
+* [How to integrate Amazon Business with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/amazon-business-tutorial)

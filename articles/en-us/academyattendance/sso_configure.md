@@ -27,4 +27,4 @@ To configure single sign-on on **Academy Attendance** side, you need to send the
 
 ## Additional Resources
 
-* [How to integrate Academy Attendance with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/academyattendance-tutorial)
+* [How to integrate Academy Attendance with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/academy-attendance-tutorial)
