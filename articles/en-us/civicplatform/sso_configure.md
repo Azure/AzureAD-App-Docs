@@ -15,7 +15,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 ### Configuring Civic Platform for single sign-on
 
-1. Open a new web browser window and sign into your Atlassian Cloud company site as an administrator.
+1. Open a new web browser window and sign into your Civic Platform company site as an administrator.
 
 1. Click on **Standard Choices**.
 
@@ -23,7 +23,7 @@ To test the steps in this tutorial, you should follow these recommendations:
 
 1. Create a standard choice **ssoconfig**.
 
-1. Search for **ssoconfig**  and submit.
+1. Search for **ssoconfig** and submit.
 
     ![The Certificate download link](media/sso-config.png)
 
